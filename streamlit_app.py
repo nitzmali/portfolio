@@ -1,10 +1,11 @@
 import streamlit as st
+from streamlit.components.v1 import html
 from PIL import Image
 
 st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
-with open("style.css") as f:
+with open("assets/styles/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
@@ -13,6 +14,7 @@ st.write('''
 # Chanin Nantasenamat, Ph.D
 ##### *Resume* 
 ''')
+         
 
 image = Image.open('dp.png')
 st.image(image, width=150)

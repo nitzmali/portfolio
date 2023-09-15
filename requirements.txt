@@ -7,3 +7,10 @@ yfinance
 #npm install
 # in template folder install template as editable package
 #pip install -e .
+sympy
+ipympl
+scikit-learn
+networkx
+pydot
+tensorflow==2.12    
+Graphviz
