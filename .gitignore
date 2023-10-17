@@ -540,7 +540,7 @@ Thumbs.db
 data/*
 data/**
 **/data/*
-**/images/*
+#**/images/*
 **/logs/*
 images/*
 datasets/*
@@ -556,7 +556,7 @@ env/
 *.mplstyle
 *.hidden
 *.hidden.save
-
+*.DS_Store
 # Ignore CSV files (if needed)
 *.csv
 *.mp3
