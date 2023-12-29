@@ -542,7 +542,7 @@ data/**
 **/data/*
 #**/images/*
 **/logs/*
-images/*
+#images/*
 datasets/*
 !data/.gitkeep   # .gitkeep file helps you keep track of empty directories as git doesn't track them
 

@@ -11,7 +11,7 @@ from widgets.navbar import *
 from streamlit.components.v1 import html
 from PIL import Image
 import streamlit.components.v1 as components
-
+import altair as alt
 
 def main():
     #navbar 
@@ -46,6 +46,160 @@ image = Image.open('/Users/nyzy/nitzmali/portfolio/assets/images/LPYH.gif')
 left_co, cent_co,last_co = st.columns([0.9,1,1])
 with cent_co:
     st.markdown("![Alt Text](https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif)")
+
+
+st.success("Successful")
+st.info("Information")
+st.warning("This is a warning")
+st.error("This is an Error Danger")
+st.exception("NameError('name three not defined')")
+st.help(range)
+
+
+#write a Text 
+st.write("Text with Write")
+
+#widget 
+if st.checkbox("Show/Hide"):
+   st.text("Showing or hiding Widget")
+
+#Radio 
+
+status = st.radio("What is your status",("Active","Inactive"))
+if status=='Active':
+   st.success("You are Active")
+else:
+   st.warning("Inactive")
+
+
+#select box 
+
+occupation = st.selectbox("Your Occupation",["Programmer","Data Science","Doctor"])
+st.write("You selected this option", occupation)
+
+#multioselect
+
+location = st.multiselect("Where do you work",("London","New York","Bangalore"))
+
+st.write("You Selected", len(location), "locations ")
+
+
+#slider 
+
+level = st.slider("What is your level",1,5)
+
+#buttons 
+
+st.button("Simple Button")
+
+if st.button("About"):
+   st.text("Streamlit is cool")
+
+
+#text input 
+
+firstname = st.text_input("Enter Your Firstname", "Type Here..")
+if st.button("submit"):
+   result = firstname.title()
+   st.success(result)
+
+#Display raw code 
+
+with st.echo():
+   import pandas as pd 
+   df = pd.DataFrame()
+
+# Progress bar 
+import time 
+my_bar = st.progress(0)
+for p in range(10):
+   my_bar.progress(p+1)
+
+#spinner 
+
+with st.spinner("Waiting..."):
+   time.sleep(0)
+st.success("Finished!!")
+
+#ballons 
+st.balloons()
+
+#side bar 
+
+st.sidebar.header("About")
+st.sidebar.text("This is streamlit Tut")
+
+#anchor
+st.title("Example:tada", anchor="title")
+
+#data 
+
+#st.dataframe(df)
+st.metric(
+   label = "Temperature",
+   value = "70 F",
+   delta = "1.2"
+)
+
+#json 
+#st.json(results)
+
+
+#altair 
+
+df =  pd.DataFrame(
+   np.random.randn(200,3),columns=["Length","Width","Size"])
+
+c= alt.Chart(df).mark_circle().encode(
+   x="Length",
+   y='Width',
+   size='Size',
+   color='Size',
+   tooltip=['Length','Width','Size']
+).interactive()
+
+st.altair_chart(c,use_container_width=True)
+#https://altair-viz.github.io/gallery/index.html
+
+st.line_chart(df)
+st.area_chart(df)
+st.bar_chart(df)
+
+#plotly and bokeh 
+#use lot of plotly 
+#bokeh includes lot of interactivity 
+#plotly dash and bokeh doesn't work together 
+
+#visualize decision tree 
+#st.graphviz_chart()
+
+#maps 
+#https://account.mapbox.com/auth/signup/
+#st.pydeck_chart
+#st.map
+
+
+#text input 
+
+st.text_input("what is your password",type="password")
+
+#text area 
+#st.text_area("label",max_chars=280)
+
+#number input 
+#st.number_input(min_value=0,max_value=100)
+
+#date input 
+#gives you a calendar
+#st.date_input()
+
+#time input 
+
+#file uploader 
+#files = st.file_uploader("Upload file",accept_multiple_files=True)
+#st.download_button()
+
+#streamlit componenets 
 
 
 

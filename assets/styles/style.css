@@ -22,10 +22,17 @@ img {
     visibility: hidden;
 }
 footer {
-    visibility: hidden;
+    position: fixed;
+    width:90%;
+    background-color: #6195c8; 
 }
 header {
     visibility: hidden;
+}
+
+.css-uc1cuc  {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
 }
 
 li.nav-item:hover {
