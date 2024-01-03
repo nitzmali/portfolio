@@ -95,11 +95,19 @@ def render_footer():
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
     ></script>
 
-    <footer class="text-center text-white " style="background-color: rgba(0, 0, 0, 0.2);">
+    <footers class="text-center text-white " style="background-color: rgba(0, 0, 0, 0.2);">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
         <section class="mb-4">
+        <!-- Linkedin -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/nitsmali/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+        ></a>
         <!-- Facebook -->
         <a
             class="btn text-white btn-floating m-1"
@@ -131,14 +139,6 @@ def render_footer():
             role="button"
             ><i class="fab fa-instagram"></i
         ></a>
-        <!-- Linkedin -->
-        <a
-            class="btn text-white btn-floating m-1"
-            style="background-color: #0082ca;"
-            href="https://www.linkedin.com/in/nitsmali/"
-            role="button"
-            ><i class="fab fa-linkedin-in"></i
-        ></a>
         <!-- Github -->
         <a
             class="btn text-white btn-floating m-1"
@@ -155,8 +155,13 @@ def render_footer():
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3" style="background-color: #37474F;color: #FFEBEE">
         © 2023 Nitin Mali | All Rights Reserved
     </div>
     <!-- Copyright -->
-    </footer>""", unsafe_allow_html=True)
+    </footers>
+    
+    """, unsafe_allow_html=True)
+
+
+    

@@ -5,11 +5,12 @@ from PIL import Image
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_timeline import timeline
+from widgets import navbar
 import json
 
 
 class AboutPage:
-  def render(self):
+  def run(self):
 
     st.title("About Me")
 
@@ -79,16 +80,13 @@ class AboutPage:
 
         # use full page width
     #st.set_page_config(page_title="Timeline Example", layout="wide")
+        # load data
 
-    # load data
-    with open('/Users/nyzy/nitzmali/portfolio/data/example_time_line_nitin.json', "r") as f:
-        data = f.read()
 
-    timeline(data, height=800)
+
 
 
 
 
 if __name__=='__main__':
-  AboutPage().render()
-  AboutPage().display_resume()
+  AboutPage().run()

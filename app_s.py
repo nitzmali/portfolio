@@ -1,47 +1,46 @@
 # main_app.py
-
+import streamlit as st
+from hydralit import HydraApp
+from pages.landing_page import Landingpage
+from pages.about_page import AboutPage
+# Import other pages as needed
 import streamlit as st
 from streamlit.components.v1 import html
 from PIL import Image
+from widgets import navbar
 import streamlit.components.v1 as components
 st.set_page_config(page_title="Nitin Mali",layout="wide",initial_sidebar_state="collapsed")
-from pages.page_2 import main
-from pages.landing_page import Landingpage
-from pages.about_page import AboutPage
-from widgets import navbar
-PAGES = {
-    "Home": Landingpage().render,
-    "About":AboutPage().render
-    # ... other pages
+from st_pages import hide_pages, show_pages, Page
+over_theme = {
+    'txc_inactive': '#FFEBEE',  # Light Pink: Inactive text color
+    'menu_background': '#37474F',  # Dark Slate Grey: Menu background color
+    'txc_active': '#FFC107',  # Amber: Active text color
+    'option_active': '#B2DFDB'  # Light Turquoise: Active option background color
 }
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
-class PortfolioApp:
+# Initialize the Hydra app
+app = HydraApp(title='Nitin Mali Portfolio', hide_streamlit_markers=True,use_navbar=True, navbar_sticky=True,navbar_mode='pinned',use_cookie_cache=True, navbar_animation=True,navbar_theme=over_theme)
 
-    def __init__(self):
-        self.page_router()
-        pass
-
-    def page_router(self):
-        page = st.sidebar.selectbox("Navigate", list(PAGES.keys()))
-        
-        # Call the appropriate page function
-        if page in PAGES:
-            page_function = PAGES[page]
-            page_function()  # Call the function
-
-if __name__ == "__main__":
-    #navbar.custom_css()
-    navbar.render_navbar()
-
-    PortfolioApp()
-    from st_pages import hide_pages, show_pages, Page
-
-    show_pages(
-        [
-            Page("app_s.py"),
-            Page("pages/landing_page.py")
-        ]
-    )
+@app.addapp()
+def home(title='Home',is_home=True):
+    Landingpage().run()
     navbar.render_footer()
     
-    
+
+@app.addapp()
+def about(title='About'):
+    AboutPage().run()
+
+# Run the app
+if __name__ == "__main__":
+    app.run()

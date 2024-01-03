@@ -17,3 +17,6 @@ tensorflow==2.12
 Graphviz
 st-pages
 streamlit-timeline
+hydralit_components
+st_btn_select
+hydralit
