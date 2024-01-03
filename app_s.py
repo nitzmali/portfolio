@@ -10,7 +10,7 @@ from pages.landing_page import Landingpage
 from pages.about_page import AboutPage
 from widgets import navbar
 PAGES = {
-    "Home": AboutPage().render,
+    "Home": Landingpage().render,
     "About":AboutPage().render
     # ... other pages
 }
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     show_pages(
         [
             Page("app_s.py"),
-            #Page("pages/landing_page.py")
+            Page("pages/landing_page.py")
         ]
     )
     navbar.render_footer()

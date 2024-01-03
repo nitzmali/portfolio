@@ -5,47 +5,25 @@ from PIL import Image
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_timeline import timeline
+import json
 
-class Landingpage:
+
+class WorkExperiencePage:
   def render(self):
 
-    #st.markdown("<h1 style='text-align: left; color: black;'>Nitin Mali</h1>", unsafe_allow_html=True)
-    with st.sidebar:
-       submit_button = st.button(label="*Download Resume*")
-    '''
-    left_co, cent_co,last_co = st.columns(3)
-    with left_co:
-        st.markdown("![Alt Text](https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif)")
-        st.write("")
-    
-    '''
+    st.title("About Me")
+
     # Profile Picture
-    left_co, right_co = st.columns([1.2, 1.8])
-    with right_co:
-          st.image("https://github.com/nitzmali/portfolio/blob/main/assets/images/profile_picture-PhotoRoom.png?raw=true",width=250)
-    
-    
-    with left_co:
-      #st.write("# Hi, I'm Nitin! 👋 ")
-      st.markdown("""
-      <style>
-          h1 {
-          text-align: right;
-          margin-top: 0;
-          margin-bottom: 0;
-          padding-top: 0;
-          padding-bottom: 0;}
-      </style>
-      <h1> Hi, I'm Nitin! 👋 </h1>
-  """, unsafe_allow_html=True)
-       
-    
+    left_co, cent_co,last_co = st.columns([1.15,1,1])
+    with cent_co:
+          st.image("/Users/nyzy/nitzmali/portfolio/assets/images/profile_picture.jpg",width=200)
+  
+
     # Brief Introduction
     st.markdown("""
         <style>
             .about-container {
                 color: #4f4f4f; /* Adjust the color as needed */
-                text-align:left;
             }
             .about-header {
                 color: #2874A6; /* Header color */
@@ -57,20 +35,11 @@ class Landingpage:
                 color: #21618C; /* Career highlights color */
                 font-weight: bold;
             }
-            .about-container h2, .about-container h3 {
-            margin-top: 0;
-            margin-bottom: 0;
-            text-align: left;
-            }
-            /* Ensure that there is no extra space inherited from global styles */
-            .about-container * {
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top: 0;
-            padding-bottom: 0;
-            }
         </style>
         <div class="about-container">
+            <h1 class="about-header">Nitin Mali</h1>
+            <h2>Senior Data Scientist at ZS | AI & Data Science Expert | Advanced Analytics and BI Specialist</h2>
+            <h2>Located in New York, United States</h2>
             <hr>
             <p>I am a seasoned data scientist with a proven track record of leveraging advanced analytics and machine learning to transform complex data into actionable business solutions. Currently excelling in a pivotal role at ZS, my career has been marked by innovative analytics and strategic contributions. My engagement at Aktana and Xsunt significantly enhanced my proficiency in the analytics domain, underscoring my versatility across various industries.</p>
             <p>My primary goal remains unwavering: to extract actionable intelligence from vast data sets and empower businesses to thrive in a data-centric world. My expertise spans AI, Data Science, Advanced Analytics, Sales and Product Analytics, Strategic Planning, and Business Strategy.</p>
@@ -90,34 +59,36 @@ class Landingpage:
                 <li>Communication</li>
                 <li>Business Acumen</li>
                 <li>Problem-Solving</li>
-                <li>Team Dynamics</li><br>
+                <li>Team Dynamics</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
 
-        
+    st.markdown("## Career Timeline")
+
+    # Example Entry in Timeline
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.text("2023 - Present")
+    with col2:
+        st.markdown("""
+        **Senior Data Scientist**  
+        Company XYZ  
+        Brief description of your role and key achievements.
+        """)
+
+        # use full page width
+    #st.set_page_config(page_title="Timeline Example", layout="wide")
+
     # load data
     with open('/Users/nyzy/nitzmali/portfolio/data/example_time_line_nitin.json', "r") as f:
         data = f.read()
 
-    #st.markdown("<h2 style='text-align: left; color: black;'>Career Timeline</h1>", unsafe_allow_html=True)
-    '''
-    st.markdown("""
-        <style>
-            h1 {text-align: left;
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top: 0;
-            padding-bottom: 0;}
-        </style>
-        <h1> Career Timeline </h1>
-    """, unsafe_allow_html=True)
-    '''
     timeline(data, height=800)
 
 
 
-    
 
 if __name__=='__main__':
-  Landingpage().render()
+  WorkExperiencePage().render()
+  WorkExperiencePage().display_resume()

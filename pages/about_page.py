@@ -61,16 +61,13 @@ class AboutPage:
                 <li>Problem-Solving</li>
                 <li>Team Dynamics</li>
             </ul>
-
-          <h3 class="career-highlight">Career Highlights:</h3>
-            <p>Senior Data Scientist, ZS (Jan 2023 - Present): Utilized Random Forest and Gradient Boosted Trees to enhance sales trend predictions, achieving a 15% YoY sales increase. Implemented NLP techniques for product feedback analysis, leading to significant product improvements and feature enhancements.</p>
         </div>
     """, unsafe_allow_html=True)
 
     st.markdown("## Career Timeline")
 
     # Example Entry in Timeline
-    col1, col2 = st.columns([1, 4])
+    col1, col2 = st.columns([1, 2])
     with col1:
         st.text("2023 - Present")
     with col2:
@@ -87,18 +84,6 @@ class AboutPage:
     with open('/Users/nyzy/nitzmali/portfolio/data/example_time_line_nitin.json', "r") as f:
         data = f.read()
 
-
-    image_url = "https://github.com/nitzmali/portfolio/blob/main/assets/images/profile_picture.jpg?raw=true"
-    image_url = "assets/images/profile_picture.jpg"
-    '''
-    with open("/Users/nyzy/nitzmali/portfolio/data/example_time_line_nitin.json") as f:
-       data = json.load(f)
-    data["events"][0]["media"]["url"]=st.image(image_url, width=200)
-    print(data["events"][0]["media"]["url"])
-    '''
-# Use Streamlit's st.image to render the image with a specific width
-    st.image(image_url, width=200) 
-    # render timeline
     timeline(data, height=800)
 
 
