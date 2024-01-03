@@ -99,7 +99,7 @@ class Landingpage:
 
         
     # load data
-    with open('/Users/nyzy/nitzmali/portfolio/data/example_time_line_nitin.json', "r") as f:
+    with open('data/example_time_line_nitin.json', "r") as f:
         data = f.read()
 
     #st.markdown("<h2 style='text-align: left; color: black;'>Career Timeline</h1>", unsafe_allow_html=True)

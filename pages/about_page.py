@@ -14,10 +14,6 @@ class AboutPage:
 
     st.title("About Me")
 
-    # Profile Picture
-    left_co, cent_co,last_co = st.columns([1.15,1,1])
-    with cent_co:
-          st.image("/Users/nyzy/nitzmali/portfolio/assets/images/profile_picture.jpg",width=200)
   
 
     # Brief Introduction
@@ -67,16 +63,6 @@ class AboutPage:
 
     st.markdown("## Career Timeline")
 
-    # Example Entry in Timeline
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.text("2023 - Present")
-    with col2:
-        st.markdown("""
-        **Senior Data Scientist**  
-        Company XYZ  
-        Brief description of your role and key achievements.
-        """)
 
         # use full page width
     #st.set_page_config(page_title="Timeline Example", layout="wide")
