@@ -5,10 +5,10 @@ from pages.landing_page import Landingpage
 from pages.about_page import AboutPage
 # Import other pages as needed
 import streamlit as st
-from streamlit.components.v1 import html
+#from streamlit.components.v1 import html
 from PIL import Image
 from widgets import navbar
-import streamlit.components.v1 as components
+#import streamlit.components.v1 as components
 st.set_page_config(page_title="Nitin Mali",layout="wide",initial_sidebar_state="collapsed")
 from st_pages import hide_pages, show_pages, Page
 over_theme = {

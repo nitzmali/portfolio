@@ -546,6 +546,11 @@ Thumbs.db
 datasets/*
 !data/.gitkeep   # .gitkeep file helps you keep track of empty directories as git doesn't track them
 
+component-template/*
+component-template/**
+**/component-template/*
+
+
 # Ignore directories created by virtual environments
 venv/
 env/

@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import streamlit as st
-import streamlit.components.v1 as components
+#import streamlit.components.v1 as components
 from streamlit_timeline import timeline
 from widgets import navbar
 import json
