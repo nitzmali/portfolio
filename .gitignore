@@ -537,9 +537,9 @@ ipython_config.py
 Thumbs.db
 
 # Data files, usually ignore all data files, but you can specify specific file types to ignore
-data/*
-data/**
-**/data/*
+#data/*
+#data/**
+#**/data/*
 #**/images/*
 **/logs/*
 #images/*

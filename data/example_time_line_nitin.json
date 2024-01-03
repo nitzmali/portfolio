@@ -1,0 +1,287 @@
+{
+    "title": {
+        "media": {
+          "url": "https://media.giphy.com/media/xT5LMIPMieHhqReXvO/giphy.gif",
+          "caption": "",
+          "credit": ""
+        },
+        "text": {
+          "headline": "Chronicles of Innovation: Nitin Mali's Data Odyssey",
+          "text": "<p>Embarking on a Data Expedition: Milestones of Mastery and Discovery</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/ncc.jpg?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2009",
+          "month":"5"
+        },
+        "text": {
+          "headline": "Early Leadership: My Tenure in the National Cadet Corps",
+          "text": "<p>My formative years in ninth and tenth standard were marked by the honor and discipline of serving in the National Cadet Corps. This experience instilled in me the values of leadership, camaraderie, and the spirit of service towards the nation. Through rigorous training and diverse activities, the NCC played a pivotal role in shaping my early leadership skills and commitment to community service.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/ramaiah_college.png?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2011",
+          "month":"5"
+        },
+        "text": {
+          "headline": "Embarking on a Tech Voyage at MS Ramaiah Engineering College",
+          "text": "<p>I commenced my journey into the realm of technology and innovation by enrolling in the Computer Science Engineering program at MS Ramaiah Engineering College, a stepping stone towards a future rich in possibilities and advancements in computing.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/nss-logotest.jpg?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2011",
+          "month":"8"
+        },
+        "text": {
+          "headline": "Cultivating Community Service: My Involvement in National Service Scheme",
+    "text": "<p>Embracing the ethos of giving back to the community, my first year in engineering was enriched by active participation in the National Service Scheme. This engagement provided a platform to not only contribute to societal well-being but also to develop a deeper understanding of social responsibility. The NSS experience was a cornerstone in my educational journey, aligning my engineering pursuits with the broader goal of community development and service.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/kin.png?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2012",
+          "month":"9"
+        },
+        "text": {
+          "headline": "Pioneering the Knowledge Innovation & Nest Club",
+          "text": "<p>In the pursuit of fostering a culture of innovation and shared learning, I co-founded the Knowledge Innovation & Nest Club in my second year of engineering at MS Ramaiah Engineering College, alongside two visionary friends. Together, we embarked on a mission to create a collaborative space for ideas to flourish and for students to inspire one another towards greater achievements in technology and beyond.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/gomad.png?raw=true",
+          "caption": "https://facebook.com/GoMadApp"
+        },
+        "start_date": {
+          "year": "2012",
+          "month":"12"
+        },
+        "text": {
+          "headline": "Harmonizing Innovation: The Dual-Melody Android App",
+          "text": "<p>In a blend of creativity and technology, we developed an Android application that introduces a new way of experiencing music—delivering distinct songs to each ear. This app redefines personal audio by allowing users to immerse themselves in two different audio streams simultaneously, one for each ear. It's a symphony of innovation designed to cater to the diverse auditory preferences of the user, perfect for those moments when one melody is simply not enough.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://youtu.be/09odCLopdrc?si=Vgr8L8ltDlQnXXjR",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2013",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Revolutionizing Waste Management with Smart Dustbin",
+          "text": "<p>In our second year at M.S. Ramaiah Institute of Technology, my colleagues Ketaki, Indhu, Nitin, and Saurabh and I pioneered a transformative waste management ecosystem centered on the 'SMART DUSTBIN'. Our innovation aimed to revolutionize the treatment of waste, making the process not only effortless but also profitable for investors. We created a system that benefits society, protects the environment, and generates revenue — a complete solution for the waste management crisis.</p><p>The 'SMART DUSTBIN' system we designed intelligently segregates waste into categories like plastic, metal, and wet waste. By implementing this system at the domestic level, we enable precise data collection and efficient route planning for waste collection trucks, optimizing resource utilization and environmental benefits. Our proof of concept has been detailed in a demonstrative video, showcasing the potential of this groundbreaking approach to waste management.</p><p>This innovative project not only garnered attention for its potential impact on sustainability but also earned us the prestigious accolade of winners at the Federation of Karnataka Chambers of Commerce & Industry competition, recognizing our contribution to technological innovation in environmental management.</p>"
+        }
+      }
+      ,{
+        "media": {
+          "url": "https://media.giphy.com/media/viXmmzsetEf4mmFZsi/giphy.gif",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2015",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Pioneering Spacecraft Autonomy: Final Year Project & ISRO Internship",
+          "text": "<p>My final year project, undertaken in collaboration with the Indian Space Research Organization (ISRO), was a groundbreaking venture into the realm of space technology. We focused on the simulation and design of a fault-tolerant autonomy system for spacecraft, a critical aspect of space exploration. My role was pivotal in designing and executing simulations that processed over a million data points, ensuring the robustness and integrity of satellite data. The project led to the development of innovative solutions for autonomous fault handling, successfully reducing data discrepancies by 15%. This experience was further enriched by working alongside ISRO's team of esteemed scientists and engineers, where I actively participated in essential discussions and contributed significantly to the project's milestones. This project not only marked a significant achievement in my academic journey but also provided a valuable practical experience in the field of aerospace engineering.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/temenos.jpg?raw=true",
+          "caption": "https://www.temenos.com/"
+        },
+        "start_date": {
+          "year": "2015",
+          "month":"7"
+        },
+        "text": {
+          "headline": "Foundational Steps in Fintech: Software Engineer at Temenos",
+          "text": "<p>My professional journey in technology began with a pivotal role at Temenos, where I contributed significantly as a Software Engineer right out of undergrad. In this role, I was instrumental in developing and maintaining the Temenos Payments Suite, efficiently managing over 10,000 SWIFT transactions monthly. My work involved integrating SQL databases with Python, leading to a substantial 30% increase in data operation efficiency. I also played a key role in analytics, scrutinizing defects in the payment life cycle and achieving a notable 25% reduction in discrepancies. My collaboration with business analysts and management teams was crucial, as I provided them with actionable insights from our analytics reports. Additionally, I spearheaded projects focusing on performance tuning and server monitoring, ensuring an impressive 99.9% system uptime and facilitating seamless transaction processing. These accomplishments at Temenos marked the beginning of my impactful journey in the fintech sector.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/rutgers_univ_1.png?raw=true",
+          "caption": "https://www.rutgers.edu/"
+        },
+        "start_date": {
+          "year": "2017",
+          "month":"1"
+        },
+        "text": {
+          "headline": "Embarking on a Data Science Odyssey: Master's Journey Begins",
+          "text": "<p>In 2017, I embarked on an intellectually stimulating journey by enrolling in a Master's program in Data Science. This decision marked a pivotal moment in my career, aligning my academic pursuits with the burgeoning field of data science. The program promised a comprehensive exploration of complex data sets, predictive analytics, and advanced algorithms, poised to equip me with the skills necessary to decipher and harness the power of data. It was an opportunity to delve into a discipline that is shaping the future of technology, business, and research, and I was eager to immerse myself in this transformative educational experience.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/Rutgers_blog.png?raw=true",
+          "caption": "https://github.com/nitzmali/Blogging-website-using-Django-framework"
+        },
+        "start_date": {
+          "year": "2017",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Digital Innovations: Django-Powered Blogging for Rutger's Students",
+          "text": "<p>I have successfully developed and launched two distinct web applications, showcasing versatility and technical prowess in modern web development. The first is a dynamic blogging website built using the Django framework, a testament to my skills in Python and full-stack development. This platform offers an intuitive user interface and robust features, catering to a wide range of blogging needs and published on Heroku for seamless accessibility.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/DFS.PNG?raw=true",
+          "caption": "https://github.com/nitzmali/Artificial-Intelligence--Path-Planning-and-Search-Algorithms"
+        },
+        "start_date": {
+          "year": "2017",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Navigating Complexity: AI Path Planning and Search Algorithms",
+          "text": "<p>From September to October 2017, I delved into the intricate world of Artificial Intelligence, focusing on path planning and search algorithms. This project was an extensive exploration of various search techniques, applied both in traditional path planning contexts and in the more abstract realm of constructing and designing complex structures. We began by generating and solving simple mazes using classical search algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), and A*. Our journey didn't stop there; we pushed the boundaries further by employing advanced algorithms such as Local Beam Search to create mazes specifically designed to challenge our initial solutions. This project not only deepened my understanding of AI search algorithms but also honed my skills in creatively applying these techniques to solve increasingly complex problems.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/color_to_gray.png?raw=true",
+          "caption": "https://github.com/nitzmali/Convert-gray-color-image-to-Color"
+        },
+        "start_date": {
+          "year": "2017",
+          "month":"11"
+        },
+        "text": {
+          "headline": "Reviving Colors through AI: Machine Learning Image Colorization",
+          "text": "<p>In a project spanning from November to December 2017, I embarked on an innovative machine learning venture to transform grayscale images into vibrant color. Utilizing K-means clustering and linear regression, our team trained a model capable of accurately inferring and applying color to monochromatic images. The process involved meticulous division of data into training, test, and validation sets, coupled with extensive experimentation with various hyperparameters. These included the number of clusters, the format of input data (whether clustered, normalized, or one-hot encoded), and the type of output, along with adjustments in the learning rate. Our focus was on fine-tuning the parameters in the linear regression model to maximize accuracy, with validation data sets serving as our benchmark for success. This project not only demonstrated the practical applications of machine learning in image processing but also pushed the limits of how artificial intelligence can restore and enhance visual data.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "<iframe src='https://slides.com/nitinmali/capstone/embed' width='200' height='200' title='Capstone Presentation' scrolling='yes' frameborder='0'></iframe>",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2018",
+          "month":"5",
+          "day":"10"
+        },
+        "text": {
+          "headline": "Innovating Travel (Airbnb) : From Predictive Analytics to Automated Airport Navigation",
+          "text": "<p>Embarking on a mission to redefine the travel experience, my projects intertwine the power of predictive analytics with smart automation. The first initiative leverages Random Forest algorithms to accurately predict a guest's next travel destination, enhancing the Airbnb booking experience. By analyzing patterns and preferences, this system intelligently forecasts where travelers are most likely to book their next journey, bringing a new level of personalization to the travel industry.</p><p>The second venture focuses on streamlining the airport experience. We've developed a web application tailored for airport lounges, designed to automate room bookings and guide passengers efficiently to their designated gates. This system not only simplifies the booking process but also employs advanced algorithms to find the shortest path to the assigned gate, ensuring a swift and stress-free transition for travelers. Our goal is to transform waiting times into moments of comfort, offering a seamless, user-friendly service that caters to the modern traveler's needs.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms2.jpg?raw=true",
+          "caption": "https://www.bms.com/"
+        },
+        "start_date": {
+          "year": "2018",
+          "month":"09"
+        },
+        "text": {
+          "headline": "Data Analytics Mastery: First Professional Foray Post-Rutgers Graduation",
+          "text": "<p>Following my graduation from Rutgers, I embarked on my professional journey, landing my first role as a Data Analyst in Newtown, Pennsylvania, from June 2018 to November 2019. This position marked the beginning of a fruitful career where I applied the knowledge and skills honed at Rutgers. My collaboration with Bristol Myers Squibb was a significant achievement, leading to a 40% increase in user engagement due to enhanced dashboard performance. My expertise in advanced customer segmentation techniques empowered sales and marketing teams to effectively target the right audience segments.</p><p>I harnessed SQL and NoSQL databases to streamline data retrieval, reducing query times by 20%. My time series analysis on sales data yielded a 90% accuracy rate in forecasts, and the application of K-means clustering to geographic sales data uncovered key market segments, thereby optimizing marketing efforts. The implementation of A/B testing strategies on dashboard interactions further boosted user interaction by 15%. Throughout my tenure, I engaged in collaborative efforts with cross-functional teams, significantly enhancing data-driven strategies and decision-making. My skills in predictive analytics, time series forecasting, A/B testing, customer segmentation, data warehousing, and Tableau played a pivotal role in achieving these notable outcomes.</p>"
+        }
+      }
+      ,
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/BMI_output_2png.png?raw=true",
+          "caption": "https://github.com/nitzmali/BMI_PREDICTION"
+        },
+        "start_date": {
+          "year": "2019",
+          "month":"7"
+        },
+        "text": {
+          "headline": "Advancements in Predictive Modeling: Income and BMI Analysis",
+          "text": "<p>In two significant projects, I demonstrated the power of predictive modeling, first by developing a model to predict household income and then by creating a model to estimate Body Mass Index (BMI). The household income project involved comprehensive steps such as data loading, feature engineering, model development and validation, and interpretation. Special attention was given to the unique challenge of predicting household income based on individual records, employing techniques like Neighbours Similarity Algorithm and Recursive Feature Elimination to ensure accuracy and quality.</p><p>The BMI prediction project was equally intricate, utilizing demographic data to predict BMI with a focus on both interpretability and performance. This project involved various statistical models and tests, such as OLS, Anova, and Tukey HSD, and employed different forms of linear regression, including Ridge, Lasso, and Elastic-Net, to provide a nuanced understanding of BMI factors. Both projects not only highlighted my skills in data science and statistical analysis but also underscored the importance of predictive modeling in extracting meaningful insights from complex datasets.</p>"
+        }
+      }
+      ,
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/data_engineering_prowess.png?raw=true",
+          "caption": "https://slides.com/nitinmali/deck-3"
+        },
+        "start_date": {
+          "year": "2019",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Innovative Data Engineering: Crafting a Unified Event Database",
+          "text": "<p>As a part of my data engineering endeavor, I undertook the challenge of creating a versatile event database, essential for constructing effective predictive models. The primary objective was to design a schema that could seamlessly integrate diverse types of events, including interactions and email communications. My approach involved the use of Airflow and Python to automate email notifications, ensuring efficient and timely data handling.</p><p>The complexity of this project lay in developing a single, generalized data structure capable of accommodating all event types. While SQL was a potential option, I explored various open-source databases, selecting the most fitting technology that aligned with the project's requirements. This schema, whether it be a single SQL table or another database format, was meticulously crafted to be comprehensive yet flexible, accommodating the intricate nuances of different event data. This project not only showcased my technical proficiency in data engineering but also highlighted my ability to innovate and adapt in the face of complex data integration challenges.</p>"
+        }
+      }
+      ,
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/ADL_DE_P.png?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2019",
+          "month":"11"
+        },
+        "text": {
+          "headline": "Data Science Prowess at Aktana: Driving AI and ML Innovations",
+          "text": "<p>During my tenure as a Data Scientist at Aktana from November 2019 to October 2022 in San Francisco, CA, I played a crucial role in advancing AI and ML technologies within the company. Collaborating with software engineers, I contributed significantly to the development of the Contextual Intelligence Engine (CIE) using Gradient Boosting Machines, resulting in notable cost savings and performance enhancements. My work in customer segmentation, using K-means clustering, churn prediction with Decision Trees, and market basket analysis via the Apriori algorithm, significantly improved marketing strategies and outcomes.</p><p>My expertise in a wide range of machine learning algorithms, including SVMs for classification and DBSCAN for clustering, was instrumental in optimizing model performance and accuracy. I led the development of time series forecasting models using ARIMA and Prophet, which markedly improved sales predictions and supported strategic planning. A key achievement was designing an automated ETL process on AWS using Lambda functions, enhancing data accessibility and boosting efficiency by 35%. I also spearheaded the migration from Alteryx BI infrastructure to Snowflake, incorporating Neural Networks for data preprocessing and ensuring more scalable and efficient operations. Additionally, I developed recommendation systems using matrix factorization and Neural Collaborative Filtering, which enhanced user experiences and increased engagement. My projects in sentiment analysis using Naive Bayes and text classification with Transformer-based models like BERT provided deep insights from extensive textual data. This role not only highlighted my skills in AI, predictive analytics, and data engineering but also underscored my proficiency in teamwork, communication, and statistical analysis.</p>"
+        }
+      }
+      ,
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/webmd-190918.jpg?raw=true",
+          "caption": "https://www.webmd.com/"
+        },
+        "start_date": {
+          "year": "2022",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Data Engineering Leadership at WebMD: Elevating Data Analytics",
+          "text": "<p>In my role as Data Engineer Manager at WebMD from November 2022 to January 2023, I focused on streamlining data processes and boosting pipeline efficiency, significantly enhancing the company's data handling capabilities. A key part of my role was integrating cutting-edge big data technologies, such as AWS and Spark, into WebMD's existing data architecture, thereby elevating the company's capacity for large-scale data processing.</p><p>My responsibilities included fostering collaborative efforts with product and customer analytics teams. By leveraging tools like Google Analytics and Adobe Analytics, I played a pivotal role in extracting actionable insights, informing strategic decision-making. I led projects in data manipulation and visualization, employing advanced tools such as Tableau and Power BI to produce comprehensive and insightful reports. My advanced proficiency in SQL was instrumental in optimizing data extraction and manipulation processes, enabling efficient analysis of extensive datasets. This role highlighted my skills in cross-functional collaborations, big data analytics, data warehousing, and data visualization, along with my ability to work effectively in team environments and present complex data in an accessible manner.</p>"
+        }
+      }
+      ,
+      {
+        "media": {
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/imageedit_11_4048091553.gif?raw=true",
+          "caption": "https://www.zs.com/"
+        },
+        "start_date": {
+          "year": "2023",
+          "month":"1"
+        },
+        "text": {
+          "headline": "Journey at ZS: Empowering Decisions with Data Science",
+          "text": "<p>Since joining ZS as a Senior Data Scientist in January 2023, my tenure has been marked by significant contributions to enhancing data-driven decision-making. My primary focus has been on employing advanced machine learning techniques to drive substantial improvements across various domains.</p><p>I leveraged Random Forest and Gradient Boosted Trees to accurately predict sales trends, leading to a 15% increase in year-over-year sales. In the realm of product feedback, I applied NLP techniques, including Topic Modeling and Sentiment Analysis, to patient feedback, unveiling key insights for product improvement. My development of user behavior models using Decision Trees and Clustering algorithms enabled the creation of tailored product experiences, significantly enhancing customer satisfaction. Moreover, I designed Collaborative Filtering recommendation algorithms that successfully increased cross-sell rates by 10%.</p><p>My approach to product feature optimization involved A/B testing and ensemble ML models, using Logistic Regression to refine feature deployment. The utilization of Large Language Models (LLM) for analyzing product reviews transformed the way we approach product innovation. Additionally, I executed Neural Network models for demand forecasting, reducing stock-outs by 8% and improving customer satisfaction. My extensive use of Python, particularly TensorFlow, Scikit-learn, and Pandas, led to a 40% reduction in data preprocessing times. My role also encompassed facilitating cross-functional collaborations, translating ML insights into actionable strategies, thereby reducing the product iteration cycle by 10%.</p><p>This presentation aims to showcase the strategic thinking, predictive modeling, and impactful analytics I have brought to ZS, highlighting my journey and the skills that have been instrumental in my role as a Senior Data Scientist.</p>"
+        }
+      }
+    ]
+}
