@@ -36,7 +36,6 @@ class AboutPage:
         <div class="about-container">
             <h1 class="about-header">Nitin Mali</h1>
             <h2>Senior Data Scientist at ZS | AI & Data Science Expert | Advanced Analytics and BI Specialist</h2>
-            <h2>Located in New York, United States</h2>
             <hr>
             <p>I am a seasoned data scientist with a proven track record of leveraging advanced analytics and machine learning to transform complex data into actionable business solutions. Currently excelling in a pivotal role at ZS, my career has been marked by innovative analytics and strategic contributions. My engagement at Aktana and Xsunt significantly enhanced my proficiency in the analytics domain, underscoring my versatility across various industries.</p>
             <p>My primary goal remains unwavering: to extract actionable intelligence from vast data sets and empower businesses to thrive in a data-centric world. My expertise spans AI, Data Science, Advanced Analytics, Sales and Product Analytics, Strategic Planning, and Business Strategy.</p>

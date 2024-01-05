@@ -3,6 +3,7 @@ import streamlit as st
 from hydralit import HydraApp
 from pages.landing_page import Landingpage
 from pages.about_page import AboutPage
+from pages.projects_page import ProjectPage
 # Import other pages as needed
 import streamlit as st
 #from streamlit.components.v1 import html
@@ -32,14 +33,18 @@ st.markdown(
 app = HydraApp(title='Nitin Mali Portfolio', hide_streamlit_markers=True,use_navbar=True, navbar_sticky=True,navbar_mode='pinned',use_cookie_cache=True, navbar_animation=True,navbar_theme=over_theme)
 
 @app.addapp()
-def home(title='Home',is_home=True):
+def HOME(title='Home',is_home=True):
     Landingpage().run()
     navbar.render_footer()
     
 
 @app.addapp()
-def about(title='About'):
+def ABOUT(title='About'):
     AboutPage().run()
+
+@app.addapp()
+def PROJECTS(title='About'):
+    ProjectPage().run()
 
 # Run the app
 if __name__ == "__main__":
