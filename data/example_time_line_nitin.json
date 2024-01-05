@@ -139,7 +139,7 @@
       },
       {
         "media": {
-          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/Rutgers_blog.png?raw=true",
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/Rutgers_logo_2.jpg?raw=true",
           "caption": "https://github.com/nitzmali/Blogging-website-using-Django-framework"
         },
         "start_date": {
@@ -211,7 +211,7 @@
       ,
       {
         "media": {
-          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images/BMI_output_2png.png?raw=true",
+          "url": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/BMI_output_2png.png?raw=true",
           "caption": "https://github.com/nitzmali/BMI_PREDICTION"
         },
         "start_date": {
