@@ -22,3 +22,4 @@ hydralit_components
 st_btn_select
 hydralit
 matplotlib
+seaborn
