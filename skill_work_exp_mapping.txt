@@ -1,0 +1,110 @@
+                
+        Programming/Tools:        
+                Languages & Frameworks:Proficient in Python, Spark, PyTorch, C, C++, R, TensorFlow, JavaScript, along with extensive use of Hadoop for big data processing.
+                Web Technologies & Systems:Experienced in Streamlit, HTML, CSS, JSON, and Linux system management.
+                Advanced Data Handling:Skilled in Advanced Excel for complex data analysis and manipulation.
+        
+
+        Data Acquisition & Transformation:
+        
+                Data Acquisition:Expertise in acquiring data from diverse sources using APIs and AWS S3.
+                Mining with NLP: Utilizing NLP for extracting valuable insights from textual data.
+                Data Infrastructure & Management: Building Data Lake infrastructure, creating ETL/ELT pipelines, data modeling, and managing data architecture.
+                SQL Expertise:Proficient in SQL optimization and performance tuning.
+                Data Warehousing & Reporting: Experienced in Snowflake, AWS RDS, Postgres, Neo4j, Oracle SQL, MySQL, MongoDB for comprehensive data warehousing and reporting.
+        
+
+        Visualization:
+        
+            Proficient in Tableau, Qlik Sense, SSRS, Matplotlib, Seaborn for crafting compelling data stories.
+        
+
+        Cloud, Containerization, ML Ops:
+        
+                Cloud Platforms:Skilled in AWS (including SageMaker, RDS, EC2, Glue, EMR, S3), Data Bricks.
+                ML Ops:(MLFlow, Auto ML), Dataiku, Knime, and Docker, Collaborating with MLOps teams for deploying machine learning models, ensuring scalability and reliability.
+        
+
+        Machine Learning:
+        
+                ML Theory & Application:Deep understanding of machine learning theory and its practical application.
+                ML Model Evaluation & Optimization: Evaluating and optimizing machine learning models for performance, accuracy, and consistency.
+                ML Techniques & Algorithms:Proficient in regression, time series analysis (ARIMA), clustering, decision trees, random forest, XGBoost, PCA, and using SKLearn.
+        
+
+        Deep Learning:
+                DL Frameworks & Techniques: Expertise in TensorFlow, PyTorch, Hugging Face, Spacy, langchain, Keras, and GPU-based training.
+                DL Model Types: Experienced in convolutional and recurrent models.
+
+        GenAI and NLP:
+                GenAI:LLM, transformers, embeddings, topic models, NER, Q&A, document summarization/classification, text generation, sentiment analysis, finetune LLMs.
+                NLP Search & Retrieval: Retrieval Augmented Generation (RAG),semantic search, VectorDBs, prompt engineering, implementing information search and retrieval at scale, using a range of solutions ranging from keyword search to semantic search using embeddings.
+
+        Analytics:
+                Product Analytics:Skilled in analyzing both structured and unstructured data for product analytics.
+                Statistical Analysis:statistical methods to identify patterns, anomalies, relationships, and trends.
+                Product Analytics Strategy: Leading analysis projects to deepen understanding of customers, uncover product improvement opportunities, provide actionable recommendations, and drive impact for our business.
+
+        Statistics:
+                Statistical Knowledge:Strong foundation in various statistical methods and mathematical disciplines.
+                Statistical Specialized Techniques:Proficient in Bayesian Analysis, Linear Programming, and conducting A/B testing.
+
+        Communication:
+                Effective Articulation:Excel at conveying complex technical concepts and aligning them with business objectives to ensure comprehensive understanding across all organizational levels.
+                Senior Management Interaction:Proven ability to confidently influence and communicate with senior management, adept at presenting data-driven insights and findings succinctly.
+                Clear and Concise Reporting:Skilled in leading interactions with both business and technical stakeholders, presenting findings and recommendations through well-crafted reports and presentations.
+                Authentic Engagement:Committed to direct communication, offering candid feedback, and promoting authenticity, thereby fostering a transparent and efficient work environment.
+                Data Storytelling:Expert in navigating through complex data sets to extract meaningful stories, translating analytics into relevant business insights.
+
+
+        Lead:
+                Team Leadership:Demonstrated track record in leading and mentoring data science teams, underpinned by strong organizational and interpersonal skills.
+                Strategic Management:Proficient in managing trade-offs and exercising leadership in a matrixed environment without direct authority.
+                Stakeholder Influence:Highly influential in educating challenging stakeholders about the critical role of data in business contexts.
+                Mentorship and Guidance: Committed to mentoring junior data scientists, fostering a culture of innovation, technical excellence, and continuous learning.
+                Decision-Making and Negotiation:Robust negotiation and decision-making skills, adept at aligning business and customer needs with strategic updates, vision, and KPIs.
+
+
+        Team Management:
+                Efficient Project Handling:Proficient in managing multiple projects with competing priorities, ensuring high organizational efficiency.
+                Culture of Accountability:Foster a team environment focused on accountability, open communication, and self-management.
+                Impactful Leadership:Proactively drive impactful initiatives, ensuring team engagement and leading by example to achieve collective goals.
+                Goal Achievement:Consistently surpass individual and team objectives through effective leadership and strategic planning.
+                Global Team Management:Experienced in coordinating and working with globally distributed teams, nurturing a diverse and inclusive work culture.
+                Talent Development:Passionate about developing talent within my team and beyond, focusing on continuous learning and career growth.
+                Adaptive Time Management: Demonstrated ability to prioritize tasks, manage time effectively, and adapt to shifting priorities in dynamic environments.
+
+        Collaboration and Cross Functional:
+                Cross-Functional Collaboration:Expertise in working with cross-functional teams, including product managers, engineers, and operations, to integrate solutions into products.
+                Teamwork for Innovation:Collaborate effectively to promote speed, agility, and innovation in team endeavors.
+                AI-Driven Product Development:Partner with data scientists, software engineers, and product managers to deliver AI-powered products, integrating technical expertise with business goals.
+
+        Business Strategy:
+                Translating Business Needs:Skilled in understanding and converting business requirements into data-driven and technical solutions.
+                Adaptive Strategy:Proficient in adjusting strategies to meet evolving business needs in a dynamic environment.
+                Analytics Strategy Contribution:Actively participate in shaping and governing the analytics strategy, aligning it with business objectives.
+                Data-Driven Business Insights:Possess a strong acumen for business, adept at linking data modeling activities with business challenges and opportunities.
+
+
+        Product and Business:
+                Product Metrics & Experimentation:Skilled in defining and tracking key product metrics, designing customer-facing experiments, and evaluating product changes through meticulous experiment design and analysis.
+                Holistic Product Understanding: Proficient in understanding both the technical and business aspects of Data Products, ensuring balanced decision-making that centers user needs.
+                Agile Methodology:Experienced in and embraces agile methodologies, ensuring flexibility and responsiveness in product development.
+                Feature Enhancement: Adept at identifying and integrating new features from diverse data sources to improve model performance and robustness.
+                Data Standards for Product Teams: Established standards and best practices for how product groups should interact with and utilize data.
+                Data-Driven Product Strategy:Proficient in analyzing product data to inform and guide product direction and strategy effectively.
+                Collaboration with UX Research:Partnered with UX research teams to design surveys and derive quantitative insights for enhanced customer experiences.
+                Data Evangelism in Product Development: Passionate about promoting a data-informed approach to product development among product managers, designers, and engineers.
+                Vision and Strategy for Product Expansion:Crafted vision and strategic roadmaps to accelerate expansion within large organizations, identifying and executing new product initiatives for large-scale solutions.
+        General:
+                Adaptability and Flexibility:Exhibits a positive and adaptable attitude, readily adjusting to new technologies and industry challenges.
+                Continuous Learning:Actively researches and stays abreast of emerging technologies, state-of-the-art methods, and applications in data science.
+                Inquisitive Nature:Known for a curiosity-driven approach, constantly seeking answers and pushing boundaries in knowledge and application.
+                Documentation and Knowledge Sharing: Maintains comprehensive documentation of machine learning modeling processes and procedures.
+                Open Source and Community Involvement:Actively contributes to GitHub, open-source initiatives, research projects, and engages in Kaggle competitions.
+                Democratization of Data:Committed to making data knowledge and insights accessible across various teams and disciplines.
+
+
+
+
+

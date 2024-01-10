@@ -4,6 +4,7 @@ from hydralit import HydraApp
 from pages.landing_page import Landingpage
 from pages.about_page import AboutPage
 from pages.projects_page import ProjectPage
+from pages.work_experience_page import WorkExperiencePage
 # Import other pages as needed
 import streamlit as st
 #from streamlit.components.v1 import html
@@ -41,10 +42,17 @@ def HOME(title='Home',is_home=True):
 @app.addapp()
 def ABOUT(title='About'):
     AboutPage().run()
+    navbar.render_footer()
 
 @app.addapp()
-def PROJECTS(title='About'):
+def PROJECTS(title='PROJECTS'):
     ProjectPage().run()
+    navbar.render_footer()
+
+@app.addapp(title='WORK EXPERIENCE')
+def WORK_EXPERIENCE():
+    WorkExperiencePage().run()
+    navbar.render_footer()
 
 # Run the app
 if __name__ == "__main__":

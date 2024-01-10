@@ -1,4 +1,4 @@
-streamlit==1.20.0
+streamlit==1.29.0
 #conda create --name sandbox python=3.9
 #conda activate sandbox
 #watchdog

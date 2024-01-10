@@ -108,6 +108,22 @@ def render_footer():
             role="button"
             ><i class="fab fa-linkedin-in"></i
         ></a>
+        <!-- Phone Button -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"  
+            href="tel:+19082757808"             
+            role="button"
+            ><i class="fas fa-phone"></i
+        ></a>
+        <!-- Email Button -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0a58ca;"  
+            href="mailto:nitsmali@hotmail.com"  
+            role="button"
+            ><i class="fas fa-envelope"></i
+        ></a>
         <!-- Facebook -->
         <a
             class="btn text-white btn-floating m-1"
@@ -122,14 +138,6 @@ def render_footer():
             href="https://twitter.com/nyzygyan"
             role="button"
             ><i class="fab fa-twitter"></i
-        ></a>
-        <!-- Google -->
-        <a
-            class="btn text-white btn-floating m-1"
-            style="background-color: #dd4b39;"
-            href="#!"
-            role="button"
-            ><i class="fab fa-google"></i
         ></a>
         <!-- Instagram -->
         <a
@@ -155,7 +163,7 @@ def render_footer():
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #37474F;color: #FFEBEE">
+    <div class="text-center p-3" style="background-color: #37474F;">
         © 2023 Nitin Mali | All Rights Reserved
     </div>
     <!-- Copyright -->
@@ -163,5 +171,12 @@ def render_footer():
     
     """, unsafe_allow_html=True)
 
+    st.markdown("""
+    <footer class="text-center" style="background-color: #37474F; color: #FFEBEE; padding: 20px;">
+        <div>
+            © 2023 Nitin Mali | All Rights Reserved
+        </div>
+    </footer>
+    """, unsafe_allow_html=True)
 
     

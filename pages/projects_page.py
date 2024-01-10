@@ -169,7 +169,7 @@ class ProjectPage:
             },
             {
                 "title": "AI Powered Job Transition Pathway using Generative LSTM Models",
-                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/job_transition.png?raw=true",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/job_transition.png?raw=true",
                 "description": "This comprehensive project in Data Science delves into the dynamic nature of the modern workforce.",
                 "details":'''<div>
                             <h2>FutureScape Navigator: Transforming Career Journeys with Generative AI and LSTM Insights</h2>
@@ -335,6 +335,9 @@ class ProjectPage:
                         margin-top: 0px; 
                         margin-bottom: 0px;">
                 """, unsafe_allow_html=True)
+
+                            # Add a button to download the resume
+        st.download_button(label="Download Resume", data="Your resume content", file_name="resume.pdf", mime="application/pdf")
 
                 #st.markdown('<hr style="border:2px solid #008080; width:50%; margin:auto;"/>', unsafe_allow_html=True)
 
