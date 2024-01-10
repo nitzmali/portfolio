@@ -21,3 +21,4 @@ streamlit-timeline
 hydralit_components
 st_btn_select
 hydralit
+matplotlib
