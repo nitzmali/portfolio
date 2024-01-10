@@ -99,7 +99,7 @@ class WorkExperiencePage:
                 <li>Led the creation of advanced testing strategies for financial systems, focusing on performance tuning and monitoring to maintain 99.9% system uptime, ensuring consistent reliability in financial transactions and reporting.</li>
             </ul>
         """,
-        "icon": "https://via.placeholder.com/150"  # Replace with the actual URL or path to your icon
+        "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_logo.jpg?raw=true"  # Replace with the actual URL or path to your icon
     }
     ]
 
@@ -117,7 +117,7 @@ class WorkExperiencePage:
             flex-direction: column;
         }
         .job-title {
-            font-size: 26px;
+            font-size: 30px;
             font-weight: bold;
         }
         .job-company {
