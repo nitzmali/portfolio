@@ -15,6 +15,7 @@ streamlit==1.29.0
 #pydot
 #tensorflow==2.12    
 #Graphviz
+plotly
 st-pages
 streamlit-timeline
 hydralit_components

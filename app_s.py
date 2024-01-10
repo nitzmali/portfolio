@@ -38,10 +38,9 @@ def HOME(title='Home',is_home=True):
     Landingpage().run()
     navbar.render_footer()
     
-
-@app.addapp()
-def ABOUT(title='About'):
-    AboutPage().run()
+@app.addapp(title='WORK EXPERIENCE')
+def WORK_EXPERIENCE():
+    WorkExperiencePage().run()
     navbar.render_footer()
 
 @app.addapp()
@@ -49,10 +48,7 @@ def PROJECTS(title='PROJECTS'):
     ProjectPage().run()
     navbar.render_footer()
 
-@app.addapp(title='WORK EXPERIENCE')
-def WORK_EXPERIENCE():
-    WorkExperiencePage().run()
-    navbar.render_footer()
+
 
 # Run the app
 if __name__ == "__main__":

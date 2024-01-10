@@ -145,7 +145,7 @@ class ProjectPage:
             },
                     {
                 "title": "Airbnb Travel",
-                "image": '<iframe src="https://slides.com/nitinmali/capstone/embed" width="830" height="391" title="Capstone Presentation" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+                "image": '<iframe src="https://slides.com/nitinmali/capstone/embed" width="880" height="400" title="Capstone Presentation" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
                 "description": "Innovating Travel (Airbnb) : From Predictive Analytics to Automated Airport Navigation",
                 "details":"Embarking on a mission to redefine the travel experience, my projects intertwine the power of predictive analytics with smart automation. The first initiative leverages Random Forest algorithms to accurately predict a guest's next travel destination, enhancing the Airbnb booking experience. By analyzing patterns and preferences, this system intelligently forecasts where travelers are most likely to book their next journey, bringing a new level of personalization to the travel industry.</p><p>The second venture focuses on streamlining the airport experience. We've developed a web application tailored for airport lounges, designed to automate room bookings and guide passengers efficiently to their designated gates. This system not only simplifies the booking process but also employs advanced algorithms to find the shortest path to the assigned gate, ensuring a swift and stress-free transition for travelers. Our goal is to transform waiting times into moments of comfort, offering a seamless, user-friendly service that caters to the modern traveler's needs.",
                 "insights": "Insights from Project 1",
@@ -336,8 +336,7 @@ class ProjectPage:
                         margin-bottom: 0px;">
                 """, unsafe_allow_html=True)
 
-                            # Add a button to download the resume
-        st.download_button(label="Download Resume", data="Your resume content", file_name="resume.pdf", mime="application/pdf")
+
 
                 #st.markdown('<hr style="border:2px solid #008080; width:50%; margin:auto;"/>', unsafe_allow_html=True)
 
