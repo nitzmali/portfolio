@@ -28,7 +28,7 @@ class WorkExperiencePage:
                     <li>Collaborated with various stakeholders across multiple departments to leverage data for organizational growth, while also streamlining data science projects by identifying and eliminating duplicative efforts, thereby enhancing team coordination and improving project efficiency by 50%.</li>
                 </ul>
             """,
-            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/DFS.PNG?raw=true"
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/zs_associates_logo.jpeg?raw=true"
         },
         {
             "role": "Data Engineer Manager",
@@ -60,7 +60,7 @@ class WorkExperiencePage:
                     <li>Influenced the technical vision and strategies of engineering teams by translating machine learning insights into actionable, data-driven recommendations.</li>
                 </ul>
             """,
-            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms2.jpg?raw=true"
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/Aktana_logo_full_blue.jpg?raw=true"
         },
         {
             "role": "Data Analyst",
@@ -126,7 +126,7 @@ class WorkExperiencePage:
             align-items: center;
         }
         .job-icon {
-            width: 24px;  /* Adjust the size of the icon */
+            width: 30px;  /* Adjust the size of the icon */
             margin-left: 10px; /* Space between the company name and the icon */
         }
         .job-period-location {
