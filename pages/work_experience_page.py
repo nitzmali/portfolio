@@ -322,7 +322,19 @@ class WorkExperiencePage:
     """, unsafe_allow_html=True)
 
         # Further details can be added here based on the selected company
-    st.download_button(label="Download Resume", data="Your resume content", file_name="assets/documents/Mali_Nitin_Resume_DS.pdf", mime="application/pdf")
+    #st.download_button(label="Download Resume", data="Your resume content", file_name="assets/documents/Mali_Nitin_Resume_DS.pdf", mime="application/pdf")
+    # Provide the path to your local PDF file
+    file_path = 'assets/documents/Mali_Nitin_Resume_DS.pdf'
+        # Read the PDF file into bytes
+    with open(file_path, "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+
+    st.download_button(
+        label="Download Resume",
+        data=PDFbyte,
+        file_name="Mali_Nitin_Resume_DS.pdf",
+        mime="application/pdf"
+    )
 
         # Add more interactive or visual elements as needed
 
