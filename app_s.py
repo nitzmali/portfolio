@@ -33,7 +33,7 @@ st.markdown(
 # Initialize the Hydra app
 app = HydraApp(title='Nitin Mali Portfolio', hide_streamlit_markers=True,use_navbar=True, navbar_sticky=True,navbar_mode='pinned',use_cookie_cache=True, navbar_animation=True,navbar_theme=over_theme)
 
-@app.addapp()
+@app.addapp(title='HOME')
 def HOME(title='Home',is_home=True):
     Landingpage().run()
     navbar.render_footer()

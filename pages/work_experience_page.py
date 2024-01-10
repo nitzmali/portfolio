@@ -6,7 +6,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_timeline import timeline
 import matplotlib.pyplot as plt
-import seaborn as sns
 import json
 from widgets import sankey_work_experience
 
