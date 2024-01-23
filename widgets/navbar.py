@@ -95,7 +95,27 @@ def render_footer():
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
     ></script>
 
-    <footers class="text-center text-white " style="background-color: rgba(0, 0, 0, 0.2);">
+    <style>
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 90%;
+            height: 4%;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer a {
+            color: white;
+            padding: 0px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <footers class="footer">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -163,20 +183,142 @@ def render_footer():
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #37474F;">
-        © 2023 Nitin Mali | All Rights Reserved
+    <div class="text-center p-3" style="background-color: #37474F;color: #FFEBEE;padding: 50px; width:100%;">
+        © 2024 Nitin Mali | All Rights Reserved
     </div>
     <!-- Copyright -->
     </footers>
     
     """, unsafe_allow_html=True)
 
+
+def render_footers():
     st.markdown("""
-    <footer class="text-center" style="background-color: #37474F; color: #FFEBEE; padding: 20px;">
-        <div>
-            © 2023 Nitin Mali | All Rights Reserved
-        </div>
-    </footer>
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+    ></script>
+
+    <style>
+    body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .footer {
+            position: sticky;
+            bottom: 0;
+            width: 90%;
+            color: white;
+            text-align: center;
+            z-index: 9999;
+            padding: 1rem 0;
+        }
+        .footer a {
+            color: white;
+            padding: 0px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <footers class="footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+        <!-- Linkedin -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/nitsmali/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Phone Button -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"  
+            href="tel:+19082757808"             
+            role="button"
+            ><i class="fas fa-phone"></i
+        ></a>
+        <!-- Email Button -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0a58ca;"  
+            href="mailto:nitsmali@hotmail.com"  
+            role="button"
+            ><i class="fas fa-envelope"></i
+        ></a>
+        <!-- Facebook -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/nitsmali/"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="https://twitter.com/nyzygyan"
+            role="button"
+            ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://instagram.com/nyzygyan"
+            role="button"
+            ><i class="fab fa-instagram"></i
+        ></a>
+        <!-- Github -->
+        <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="https://github.com/nitzmali"
+            role="button"
+            ><i class="fab fa-github"></i
+        ></a>
+        </section>
+        <!-- Section: Social media -->
+
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #37474F;color: #FFEBEE;padding: 0px; width:100%;">
+        © 2024 Nitin Mali | All Rights Reserved
+    </div>
+    <!-- Copyright -->
+    </footers>
+    
     """, unsafe_allow_html=True)
+
+
+
+
 
     

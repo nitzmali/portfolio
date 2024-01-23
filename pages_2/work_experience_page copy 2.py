@@ -1,3 +1,4 @@
+# Your existing imports
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -5,72 +6,13 @@ from PIL import Image
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_timeline import timeline
-from widgets import navbar
-class ProjectPage:
-    def run(self):
+import matplotlib.pyplot as plt
+import json
+# ... rest of your imports
 
-        st.markdown("""
-            <style>
-            .card {
-                margin-bottom: 20px;
-                border-radius: 10px;
-                border: none;
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            }
-            .card-body {
-                padding: 15px;
-            }
-            .card-title {
-                margin-bottom: 15px;
-                font-weight: bold;
-            }
-            .card-text {
-                font-size: 14px;
-                margin-bottom: 15px;
-            }
-            .image {
-                height: auto;
-                max-height: 400px;
-                width: 100%;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-                object-fit: contain;
-                border: 0.5px solid #000000; /* Add a border to the image */
-            }
-            .streamlit-button {
-                margin-top: 10px;
-                border-radius: 5px;
-            .streamlit-expander-header { /* Adjust the styling for the expander header */
-                font-size: 16px;
-                font-weight: bold;
-            }
-            .streamlit-expander { /* Adjust the styling for the expander */
-                margin-top: 0px;
-                border-top: none;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-            }
-            
-            </style>
-        """, unsafe_allow_html=True)
+# Assuming you have defined your 'projects' and 'work_experience' lists as shown earlier
 
-        import base64
-        # Function to convert PDF file to base64
-        def get_base64_of_pdf(pdf_file_path):
-            with open(pdf_file_path, "rb") as pdf_file:
-                return base64.b64encode(pdf_file.read()).decode('utf-8')
-        def return_pdf_embed(pdf_file_path):
-            base64_pdf = get_base64_of_pdf(pdf_file_path)
-            # Embed the PDF in the app
-            pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
-            return pdf_display
-
-        # Assuming you have a PDF file named 'example.pdf' in the same directory as your Streamlit script
-        pdf_file_path_smart_dustbin_project = 'assets/documents/Smart_Dustbin_manthan.pdf'
-        pdf_file_path_isro_project = 'assets/documents/ISRO.pdf'
-        # Sample project data
-        projects = [
+projects = [
             {
                 "title": "Go Mad Android App",
                 "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images_resized/gomad.png?raw=true",
@@ -228,128 +170,201 @@ class ProjectPage:
             # Add more projects as needed...
         ]
 
-        def create_tabs(project,pdf=True):
-            with st.expander("View More",expanded=False):
-                tab1, tab2, tab3 = st.tabs(["Details", "Code", "Conclusion"])
 
-                with tab1:
-                    if not pdf:
-                        st.markdown(project["details"], unsafe_allow_html=True)
-                    else:
-                        st.markdown(return_pdf_embed(project["pdf_file_path"]), unsafe_allow_html=True)
+work_experience = [
+        {
+            "role": "Data Scientist",
+            "company": "ZS Associates",
+            "period": "January 2023 - Present",
+            "location": "New York, USA",
+            "details": """
+                <ul>
+                    <li>Led the development of utilizing Convolutional Neural Networks (CNNs), to analyze and interpret complex user interaction data, effectively enhancing engagement with our digital tools by 25%.</li>
+                    <li>Employed Generative AI, specifically Transformer-based Large Language Models (LLMs), for in-depth textual analysis and content generation, enabling more personalized and relevant HCP-user interactions.</li>
+                    <li>Engineered sophisticated multi-channel optimization and business experimentation strategies by integrating Bayesian Methods for probabilistic inference, Logistic Regression for predictive analysis, and Ensemble Methods to aggregate insights from multiple models, yielding a tangible 10% improvement in digital engagement efficiency.</li>
+                    <li>Translated machine learning insights into actionable strategies, akin to the impact of using Scikit-learn in time series models, reducing forecasting errors by 18%.</li>
+                    <li>Applied analytical and statistical programming skills using Python, TensorFlow, and Pandas to collect, analyze, and interpret large data sets, driving significant insights and outcomes.</li>
+                    <li>Collaborated with various stakeholders across multiple departments to leverage data for organizational growth, while also streamlining data science projects by identifying and eliminating duplicative efforts, thereby enhancing team coordination and improving project efficiency by 50%.</li>
+                    <li>Pioneered the creation of advanced credit risk models utilizing CNNs, Generative AI, and LLMs to analyze customer credit data, enhancing loan evaluation accuracy and integrating these models into Vanguard’s system, thereby boosting credit risk process efficiency by 30% and facilitating more nuanced lending decisions.</li>
+                    <li>Employed Bayesian Methods, Logistic Regression, and Ensemble Methods in developing financial forecasting models, significantly improving the accuracy of predictions for asset values and market trends.</li>
+                    <li>Designed and implemented sophisticated fraud detection algorithms using Generative AI and CNNs, achieving a notable reduction in online transaction fraud at Vanguard Group. Concurrently led a team to bolster investment risk management, culminating in the development of a real-time risk monitoring dashboard, which substantially enhanced risk mitigation strategies.</li>
+                    <li>Transformed financial modeling techniques at Vanguard by adapting CNNs and LLMs for analyzing market trends and asset performance, markedly increasing asset valuation accuracy. This transformation included the integration of Bayesian Methods, Logistic Regression, and Ensemble Methods to refine financial forecasts and inform strategic investment decisions.</li>
+                </ul>
+            """,
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/zs_associates_logo.jpeg?raw=true",
+            "url":"https://zs.com",
+        },
+        {
+            "role": "Data Engineer Manager",
+            "company": "Webmd",
+            "period": "November 2022 - January 2023",
+            "location": "NewYork, USA",
+            "details": """
+                <ul>
+                    <li>Streamlining data processes and enhancing pipeline efficiency. Championed the integration of big data technologies, including AWS andSpark, into the company's data architecture.</li>
+                    <li>Initiated collaborations with product and customer analytics teams to derive actionable insights from tools such as Google Analytics and Adobe Analytics.</li>
+                </ul>
+            """,
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/WebMD_logo.png?raw=true",  # Replace with the actual URL or path to your icon
+            "url":"https://webmd.com",
+        },
+        {
+            "role": "Data Scientist - Machine Learning Engineer",
+            "company": "Aktana",
+            "period": "November 2019 - December 2022",
+            "location": "San Francisco, USA",
+            "details": """
+                <ul>
+                    <li>Orchestrated the development of a Contextual Intelligence Engine (CIE) leveraging various machine learning models with Python and Spark on AWS EMR, resulting in a 40% uplift in targeted engagement and a streamlined data workflow automation.</li>
+                    <li>Spearheaded the integration of a robust machine learning and analytics data platform utilizing Delta Lake on AWS, significantly enhancing algorithmic workflows and analytics.</li>
+                    <li>Collaborated with product managers to develop neural network-based channel propensity models, enhancing healthcare professional engagement by 25%.</li>
+                    <li>Utilized predictive analytics and behavioral modeling in AI for digital content personalization, achieving a 32% increase in conversion rates.</li>
+                    <li>Advanced Gradient Boosting Machines were used to optimize marketing mix models, leading to a 21% improvement in digital marketing ROI.</li>
+                    <li>Collaborated with Machine Learning Engineers and Product Managers to develop a user-centric, no-code automated machine learning platform using Knime and Databricks MLflow.</li>
+                    <li>Implemented and maintained over 15 statistical and machine learning solutions, covering the entire life cycle from development to deployment including metadata management, optimizing model performance at scale.</li>
+                    <li>Influenced the technical vision and strategies of engineering teams by translating machine learning insights into actionable, data-driven recommendations.</li>
+                </ul>
+            """,
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/Aktana_logo_full_blue.jpg?raw=true",
+            "url":"https://aktana.com",
+        },
+        {
+            "role": "Data Analyst",
+            "company": "Bristol Myers Squibb (BMS)",
+            "period": "June 2018 - October 2019",
+            "location": "Princeton, USA",
+            "details": """
+                <ul>
+                    <li>Built and refined 36+ logical models, collaborating with database administrators to develop physical models and overall data architecture, enhancing the understanding of large datasets.</li>
+                    <li>Developed comprehensive analytics reports for Sales, Patient, Claims data for reps to look at using Python and SQL within the XPERT platform, streamlining processes and saving over 60 hours monthly.</li>
+                    <li>Automated BMS Sales Data Processing for US, using a Python-triggered email automation script to refresh data daily and publish on Dashboard.</li>
+                    <li>Led the development of automated reporting systems for key performance metrics using Python and SQL, saving more than 30 hours each week.</li>
+                    <li>Created dynamic operational reports in Tableau integrated with XPERT, enhancing team coordination and operational efficiency, resulting in significant cost savings.</li>
+                    <li>Managed and analyzed client engagement metrics within the XPERT platform, optimizing client services and improving workforce allocation.</li>
+                    <li>Enhanced dashboard performance in collaboration with Bristol Myers Squibb using XPERT, resulting in a 40% increase in user engagement.</li>
+                    <li>Engineered and implemented ETL infrastructures at XSUNT, integrating SQL databases with Python to boost decision-making efficiency by 42% through enhanced data processing.</li>
+                    <li>Utilized Python clustering methods to analyze geographic sales data, identifying and strategically improving underperforming markets, contributing to a 4% increase in profits.</li>
+                    <li>Collaborated with product and sales teams to apply advanced customer segmentation and cohort analysis, leading to a strategic 21% pricing reduction for key segments, increasing annual revenue by over $100,000.</li>
+                </ul>
+            """,
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/Bristol-Myers_Squibb_Logo.svg.png?raw=true",
+            "url":"https://bms.com",
+        },
+        {
+        "role": "Financial Analyst",
+        "company": "Temenos",
+        "period": "January 2015 - October 2016",
+        "location": "Bengaluru, India",
+        "details": """
+            <ul>
+                <li>Collaborated with 23 stakeholders to leverage advanced analytics in identifying investment opportunities and risks, guiding strategic decision-making in asset management.</li>
+                <li>Conducted extensive data mining and analysis across multiple databases to optimize investment strategies and product offerings in wealth management.</li>
+                <li>Orchestrated comprehensive A/B testing for client interfaces, achieving a 23% increase in client engagement and satisfaction through tailored wealth management solutions.</li>
+                <li>Implemented advanced customer segmentation and cohort analysis, leading to a 21% optimized pricing strategy for high-value investment portfolios, boosting revenue by $500,000.</li>
+                <li>Employed innovative statistical methods to develop and analyze financial products, enhancing portfolio diversification and risk management in asset management.</li>
+                <li>Tailored analytics solutions to meet specific needs in wealth management, enhancing product development and investment performance.</li>
+                <li>Led the creation of advanced testing strategies for financial systems, focusing on performance tuning and monitoring to maintain 99.9% system uptime, ensuring consistent reliability in financial transactions and reporting.</li>
+            </ul>
+        """,
+        "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_logo.jpg?raw=true",  # Replace with the actual URL or path to your icon,
+        "url":"https://temenos.com",
+    }
+    ]
 
-                with tab2:
-                    st.markdown(f"[Code Repository]({project['code']})")
-                    # Create the nbviewer URL for your notebook
-                    if project["title"]=="Income and BMI Prediction":
-                        st.write("House Income Data Preparation")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/1.1%20-%20Data_Preparation%20%5BHH%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("House Income Data Exploration")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/1.2%20-%20Data%20Exploration%20%5BHH%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("House Income Modelling")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/1.3%20-%20Encoding%20and%20%20Modelling%20%5BHH%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("BMI Data Preparation")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/1.2%20-%20Data%20Exploration%20%5BHH%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("BMI Data Exploration")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/2.2%20-%20Data%20Exploration%20%5BBMI%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("BMI -- Regression Machine Learning Model")
-                        github_url = 'https://github.com/nitzmali/BMI_PREDICTION/blob/main/2.3%20-%20Encoding%20and%20Modelling%20%5BBMI%5D.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
+# Initialize session state for selected project and page view
+if 'current_page' not in st.session_state:
+    st.session_state.current_page = 'home'
+if 'selected_project' not in st.session_state:
+    st.session_state.selected_project = None
 
-                    if project["title"]=="AI Powered Job Transition Pathway using Generative LSTM Models":
-                        st.write("## Data Loading and Processing")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/data_process.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("## Clustering Job Ttiles using Spacy")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/build_clustering_titles_skills_iden_models.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("## Generate Synthetic data to map job transitions")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/jobs_data_generation.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("## Job Prediction")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/final_models/job_prediction.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("## Skills Prediction")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/final_models/skills_prediction.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)
-                        st.write("## Course Prediction")
-                        github_url = 'https://github.com/nitzmali/job_transition_pathway/blob/main/notebooks/final_models/course_prediction.ipynb?raw=true'
-                        nbviewer_url = github_url.replace('github.com', 'nbviewer.jupyter.org/github')
-                        st.markdown(f'<iframe src="{nbviewer_url}" width="100%" height="800" frameborder="0"></iframe>', unsafe_allow_html=True)    
+# Custom CSS to adjust the layout and center the job container
+st.markdown("""
+    <style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .card {
+        margin: 10px;
+        flex-basis: 21%;  /* Adjust the card width here */
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    }
+    .card:hover {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card h5 {
+        margin: 16px;
+    }
+    .card p {
+        margin: 16px;
+    }
+    .job-container {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .streamlit-button {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-                with tab3:
-                    st.write(project["conclusion"])
+# Function to show project details (as a separate page)
+def show_project_details(project):
+    st.session_state['selected_project'] = project
 
+# Main app logic
+def main():
+    if st.session_state.current_page == 'home':
+        st.title('My Work Experience')
 
-        # Number of columns for the grid
-        cols_per_row = 2
-        def is_iframe(image_string):
-            return "<iframe" in image_string
+        # Display each job entry
+        for job in work_experience:
+            st.markdown(f"""
+                <div class="job-container">
+                    <h2 class="job-title">{job['role']}</h2>
+                    <div class="job-company">
+                        <img class="job-icon" src="{job['icon']}" alt="{job['company']} Icon">
+                        <h3>{job['company']}</h3>
+                    </div>
+                    <p class="job-period-location">{job['period']} - {job['location']}</p>
+                </div>
+            """, unsafe_allow_html=True)
+        
+        # Display the project cards in a grid
+        st.markdown("<div class='card-container'>", unsafe_allow_html=True)
+        for project in projects:
+            st.markdown(f"""
+                <div class="card">
+                    <img src="{project['image']}" alt="{project['title']}">
+                    <h5>{project['title']}</h5>
+                    <p>{project['description']}</p>
+                    <button class="streamlit-button" onclick="window.location.href='#project-details';">View Details</button>
+                </div>
+            """, unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
 
-        # Create the card layout
-        for i in range(0, len(projects), cols_per_row):
-            cols = st.columns(cols_per_row)
-            for j in range(cols_per_row):
-                if i + j < len(projects):
-                    project = projects[i + j]
-                    if is_iframe(project["image"]):
-                        # If it's an iframe, render it directly
-                        media_html = project["image"]
-                    else:
-                        # If it's an image URL, use the img tag
-                        media_html = f'<img class="image" src="{project["image"]}" alt="{project["title"]}">'
+    elif st.session_state.current_page == 'project_details':
+        # Display the project details for the selected project
+        selected_project = st.session_state.selected_project
+        st.markdown(f"<h2>{selected_project['title']}</h2>", unsafe_allow_html=True)
+        st.markdown(selected_project['details'], unsafe_allow_html=True)
+        # Add a back button to go to the home page
+        if st.button('Back to all projects'):
+            st.session_state.current_page = 'home'
+            st.session_state.selected_project = None
 
-                    with cols[j]:
-                        st.markdown(f"""
-                            <div class="card">
-                                {media_html}
-                                <div class="card-body">
-                                    <h5 class="card-title">{project['title']}</h5>
-                                    <p class="card-text">{project['description']}</p>
-                                </div>
-                            </div>
-                        """, unsafe_allow_html=True)
-                        create_tabs(project,project["pdf"])
-
-                st.markdown("""
-                    <hr style="
-                        border: none; 
-                        height: 1px; 
-                        background: linear-gradient(to right, #B2DFDB 0%, #B2DFDB 100%); 
-                        margin-top: 0px; 
-                        margin-bottom: 0px;">
-                """, unsafe_allow_html=True)
-
-
-
-                #st.markdown('<hr style="border:2px solid #008080; width:50%; margin:auto;"/>', unsafe_allow_html=True)
-
-   
-
-
-
-
-
-
-
-            
-
-
-
-
+if __name__ == '__main__':
+    main()

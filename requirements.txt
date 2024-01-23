@@ -23,3 +23,8 @@ st_btn_select
 hydralit
 matplotlib
 seaborn
+pyvis
+networkx
+streamlit_extras
+streamlit_card
+streamlit_lottie

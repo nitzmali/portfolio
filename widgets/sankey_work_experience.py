@@ -634,7 +634,7 @@ def render_image():
     )
 
     fig.add_annotation(
-    text="For definition, please visit tab -> WORK EXPERIENCE",
+    text="",
     x=0.5,
     y=0.00001,
     showarrow=False,
