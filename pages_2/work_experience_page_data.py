@@ -161,8 +161,8 @@ class WorkExperiencePageData():
                 "pdf_file_path": ""
             },
     {
-        "title": "Optimizing HCP Engagement with Advanced Channel Propensity Models",
-        "image": "",
+        "title": "Optimizing HCP Engagement with Neural Network Based Channel Propensity Models",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_2.png?raw=true",
         "description": "Led a groundbreaking project to leverage neural networks in enhancing engagement rates with healthcare professionals, achieving a 25% increase in targeted communications efficiency.",
         "details": """
         """,
@@ -175,7 +175,7 @@ class WorkExperiencePageData():
     },
     {
             "title": "Revolutionizing Pharma Marketing with Advanced Attribution Modelling",
-            "image": "",  
+            "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_3.jpeg?raw=true",  
             "description": "Led a transformative project in pharmaceutical marketing, employing advanced attribution modeling to optimize ROI and reshape marketing strategies, resulting in substantial improvements in resource allocation and sales outcomes.",
             "details": """
             """,
@@ -187,8 +187,8 @@ class WorkExperiencePageData():
             "pdf_file_path": ""
         },
             {
-        "title": "Optimizing Pharma Marketing with AI-Driven HCP Engagement Strategies",
-        "image": "", 
+        "title": "Optimizing Pharma Marketing with AI-Driven Contextual Intelligence Engine",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_4.jpg?raw=true", 
         "description": "Spearheaded a critical project integrating AI and ML models to revolutionize pharmaceutical marketing strategies, resulting in markedly improved HCP engagement, increased prescribing behavior, and optimized ROI.",
         "details": """
         """,
@@ -201,7 +201,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Gen AI Powered Next Best Action Recommendations",
-        "image": "",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_5.png?raw=true",
         "description": "Pioneered an innovative AI-driven Next Best Action recommendation system, significantly enhancing sales rep efficiency and HCP engagement in the healthcare sector. This cutting-edge project utilized advanced Seq2Seq models with LSTM and attention mechanisms, leading to a marked improvement in sales conversion rates and a more personalized approach to healthcare professional interactions.",
         "details": """
         """,
@@ -220,7 +220,7 @@ class WorkExperiencePageData():
     bms_projects = [
 {
                 "title": "Revolutionizing Pharma Analytics: Advanced Data Science Integration",
-                "image": "",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms_1.jpg?raw=true",
                 "description": "This project ambitiously integrates advanced data science and AI/ML technologies into a comprehensive analytics platform, revolutionizing pharmaceutical industry practices. The result is a marked improvement in operational efficiency, marketing ROI, and a deeper understanding of patient and consumer needs, setting new benchmarks in data-driven strategies in healthcare.",
                 "details": """
                 """,
@@ -245,7 +245,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Dynamic HCP Segmentation: Monte Carlo Simulations in Pharma Marketing",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms_3.png?raw=true",  # Add the URL or path to the relevant image
         "description": "This project exemplifies the innovative application of Monte Carlo simulations and K-means clustering to segment healthcare professionals (HCPs) in pharmaceutical marketing. Focusing on capturing and analyzing complex behavioral patterns, the project employed a variety of tools like Python, R, and Tableau to model HCP behaviors and preferences. This advanced approach led to improved segmentation accuracy, resulting in higher ROI and more effective marketing strategies.",
         "details": "",
         "insights": "",
@@ -262,7 +262,7 @@ class WorkExperiencePageData():
     temenos_projects = [
     {
         "title": "Advanced Analytics for Investment Opportunity Identification",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_1.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Collaborated with 23 stakeholders to leverage advanced analytics in identifying investment opportunities and risks, guiding strategic decision-making in asset management.",
         "details": "",
         "insights": "",
@@ -274,7 +274,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Data Mining and Analysis for Wealth Management Optimization",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Conducted extensive data mining and analysis across multiple databases to optimize investment strategies and product offerings in wealth management.",
         "details": "",
         "insights": "",
@@ -286,7 +286,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "A/B Testing for Enhanced Client Engagement in Wealth Management",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_1.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Orchestrated comprehensive A/B testing for client interfaces, achieving a 23% increase in client engagement and satisfaction through tailored wealth management solutions.",
         "details": "",
         "insights": "",
@@ -298,7 +298,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Innovative Statistical Methods in Financial Product Development",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Employed innovative statistical methods to develop and analyze financial products, enhancing portfolio diversification and risk management in asset management.",
         "details": "",
         "insights": "",
@@ -315,7 +315,7 @@ class WorkExperiencePageData():
     webmd_projects = [
     {
         "title": "WebMD's Advanced AWS Data Science Platform",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/LPYH.gif?raw=true",  # Add the URL or path to the relevant image
         "description": "This project highlights WebMD's development of a sophisticated data science and analytics platform using AWS services and Delta Lake. It emphasizes operational efficiency, advanced data management, and machine learning capabilities, leading to significant improvements in data processing, analytics, and business outcomes.",
         "details": "",
         "insights": "",

@@ -57,15 +57,6 @@ class AboutPage:
         <p><strong>     Master of Science (M.S) in Data Science</strong> | GPA: 3.7 | Jan 2017 - May 2018</p>
         <h4>M.S. Ramaiah Institute of Technology</h4>
         <p><strong>     Bachelor of Engineering (B.E) in Computer Science Engineering</strong> | GPA: 3.7 | Jul 2011 - May 2015</p>
-        <hr>
-        <h3 class="highlight">Contact Me</h3>
-        <ul>
-            <li>🌐: <a href="https://mroneai.com" target="_blank">mroneai.com</a></li>
-            <li>🔗: <a href="https://linkedin.com/in/nitsmali" target="_blank">linkedin.com/in/nitsmali</a></li>
-            <li>🐙: <a href="https://github.com/nitzmali" target="_blank">github.com/nitzmali</a></li>
-            <li>✉️: <a href="mailto:nitsmali@hotmail.com">nitsmali@hotmail.com</a></li>
-            <li>📞: <a href="tel:+19082757808">(908)-275-7808</a></li></li>
-        </ul>
         </div>
         <hr>
     """, unsafe_allow_html=True)

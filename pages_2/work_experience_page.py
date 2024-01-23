@@ -182,7 +182,7 @@ class WorkExperiencePage(HydraHeadApp):
                                 # Create a linear gradient CSS string
                                 gradient = f"linear-gradient(to right, {color1}, {color2})"
                                 return gradient
-                            st.markdown(f"<div style='margin-left: 80px;overflow: hidden;width: calc(100% - 80px);'>{project['description']} </div>", unsafe_allow_html=True)
+                            st.markdown(f"<div style='margin-left: 80px;overflow: hidden;width: calc(100% - 80px);'>{project['title']} </div>", unsafe_allow_html=True)
                             #st.markdown("##")
                             # Use the card component from streamlit_card library
                             hasClicked = card(

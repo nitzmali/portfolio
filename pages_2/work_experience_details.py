@@ -238,8 +238,8 @@ class WorkExperienceDetailsApp(HydraHeadApp):
                 .centered {
                     text-align: center;  /* Center text */
                     margin: auto;        /* Center in a column */
-                    padding-left: 70px;
                     font-size: 2rem;
+                    max-width: 900px;
                 }
 
                 .details-container {
@@ -265,8 +265,10 @@ class WorkExperienceDetailsApp(HydraHeadApp):
             st.markdown(css_style1, unsafe_allow_html=True)
             st.markdown(f"<h1 class='centered'>{project['title']}</h1>", unsafe_allow_html=True)
             st.markdown(f"<div class='centered'>{media_html}</div>", unsafe_allow_html=True)
+
             
             #st.markdown(f"<div class='centered'>{project_name}</div>", unsafe_allow_html=True)
+            st.markdown(f"<div class='details-container'>{project['description']}</div>", unsafe_allow_html=True)
             st.markdown(f"<div class='details-container'>{project['details']}</div>", unsafe_allow_html=True)
 
 

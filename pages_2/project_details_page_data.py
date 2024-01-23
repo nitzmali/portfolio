@@ -338,7 +338,7 @@ class ProjectDetailsPageData:
                 },
                 {
                 "title": "Revolutionizing Customer Engagement with CRI Score",
-                "image": "", 
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_1.png?raw=true", 
                 "description": "Spearheaded the development of the Customer Relationship Index (CRI), significantly enhancing omnichannel engagement tracking and data-driven marketing decisions.",
                 "details": """
                     <div>
@@ -404,8 +404,8 @@ class ProjectDetailsPageData:
                 "pdf_file_path": ""
             },
             {
-                "title": "Optimizing HCP Engagement with Advanced Channel Propensity Models",
-                "image": "",
+                "title": "Optimizing HCP Engagement with Neural Network Based Channel Propensity Models",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_2.png?raw=true",
                 "description": "Led a groundbreaking project to leverage neural networks in enhancing engagement rates with healthcare professionals, achieving a 25% increase in targeted communications efficiency.",
                 "details": """
                     <div>
@@ -455,7 +455,7 @@ class ProjectDetailsPageData:
             },
             {
             "title": "Revolutionizing Pharma Marketing with Advanced Attribution Modelling",
-            "image": "",  
+            "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_3.jpeg?raw=true",  
             "description": "Led a transformative project in pharmaceutical marketing, employing advanced attribution modeling to optimize ROI and reshape marketing strategies, resulting in substantial improvements in resource allocation and sales outcomes.",
             "details": """
                 <div>
@@ -498,9 +498,9 @@ class ProjectDetailsPageData:
             "pdf_file_path": ""
         },
                     {
-        "title": "Optimizing Pharma Marketing with AI-Driven HCP Engagement Strategies",
-        "image": "", 
-        "description": "Spearheaded a critical project integrating AI and ML models to revolutionize pharmaceutical marketing strategies, resulting in markedly improved HCP engagement, increased prescribing behavior, and optimized ROI.",
+        "title": "Optimizing Pharma Marketing with AI-Driven Contextual Intelligence Engine",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/LPYH.gif?raw=true", 
+        "description": "Spearheaded a critical project integrating AI and ML models to revolutionize pharmaceutical marketing strategies, resulting in markedly improved HCP engagement, increased prescribing behavior, and optimized ROI. <a href='https://www.aktana.com/news/aktana-launches-contextual-intelligence-engine-2-0/'>Aktana CIE 2.0</a> ",
         "details": """
        <div>
     <h2>1. Data Collection and Preprocessing</h2>
@@ -768,7 +768,7 @@ class ProjectDetailsPageData:
     },
             {
                 "title": "Gen AI Powered Next Best Action Recommendations",
-                "image": "",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_5.png?raw=true",
                 "description": "Pioneered an innovative AI-driven Next Best Action recommendation system, significantly enhancing sales rep efficiency and HCP engagement in the healthcare sector. This cutting-edge project utilized advanced Seq2Seq models with LSTM and attention mechanisms, leading to a marked improvement in sales conversion rates and a more personalized approach to healthcare professional interactions.",
                 "details": """
                     <div>
@@ -871,278 +871,10 @@ class ProjectDetailsPageData:
                 "pdf_file_path": ""
             },
 
- {
-        "title": "Optimizing Pharma Marketing with AI-Driven HCP Engagement Strategies",
-        "image": "", 
-        "description": "Spearheaded a critical project integrating AI and ML models to revolutionize pharmaceutical marketing strategies, resulting in markedly improved HCP engagement, increased prescribing behavior, and optimized ROI.",
-        "details": """
-       <div>
-    <h2>1. Data Collection and Preprocessing</h2>
-    <p><strong>Process:</strong></p>
-    <ul>
-        <li>Collect extensive data on HCP interactions, prescribing behavior, demographics, and channel engagement.</li>
-        <li>Perform data cleansing, normalization, and handle inconsistencies, missing values, and outliers.</li>
-    </ul>
-    <p><strong>Tools and Technologies:</strong></p>
-    <ul>
-        <li>Data storage and processing using AWS services (e.g., S3, Redshift).</li>
-        <li>ETL processes implemented via tools like Apache NiFi or Talend.</li>
-    </ul>
-    <h2>2. Models Integration</h2>
-    <p><strong>HCP Segmentation</strong></p>
-    <ul>
-        <li>Objective: To group HCPs into segments based on similarities in their behavior, preferences, or characteristics.</li>
-        <li>Model: Utilize clustering algorithms (like K-means, hierarchical clustering) to segment HCPs.</li>
-        <li>Integration:
-            <ul>
-                <li>The output of this model (segment labels for each HCP) is used to tailor marketing strategies.</li>
-                <li>These segments help in understanding which group of HCPs responds similarly to marketing efforts.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Constraints/Business Rules Process</strong></p>
-    <ul>
-        <li>Objective: To ensure marketing strategies comply with business constraints like budget, legal regulations, and optimal number of touchpoints per HCP.</li>
-        <li>Model: Develop a rule-based system to apply these constraints.</li>
-        <li>Integration:
-            <ul>
-                <li>The rule engine filters and refines the marketing strategies suggested by other models.</li>
-                <li>It ensures that the proposed actions are feasible and align with business goals and regulations.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Sequence Analysis</strong></p>
-    <ul>
-        <li>Objective: To analyze and predict the most effective sequence of marketing tactics.</li>
-        <li>Model: Use sequence clustering, genetic algorithms, or Markov decision processes.</li>
-        <li>Integration:
-            <ul>
-                <li>Analyze historical data to identify successful sequences of marketing tactics.</li>
-                <li>Evaluate sequence value based on changes in sales and expected engagement.</li>
-                <li>The output helps in understanding the impact of different sequence strategies on sales uplift.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Sequence Design</strong></p>
-    <ul>
-        <li>Objective: To design the optimal sequence of marketing interactions for each HCP segment.</li>
-        <li>Model: Incorporate models like  probability matrices, and K-nearest neighbors.</li>
-        <li>Integration:
-            <ul>
-                <li>Based on the sequence analysis, design marketing sequences that are likely to yield the best engagement and sales results.</li>
-                <li>Integrate with the channel propensity model to include the most effective channels in these sequences.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Engagement Prediction Model</strong></p>
-    <ul>
-        <li>Objective: To predict how likely an HCP is to engage with a given marketing tactic.</li>
-        <li>Model: Use classification models like logistic regression, random forests, or neural networks.</li>
-        <li>Integration:
-            <ul>
-                <li>The engagement prediction scores guide the selection of tactics for each HCP.</li>
-                <li>Helps in prioritizing HCPs who are more likely to engage.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Channel Propensity Model</strong></p>
-    <ul>
-        <li>Objective: As previously mentioned, it estimates each HCP’s affinity towards different channels.</li>
-        <li>Integration:
-            <ul>
-                <li>These scores are used to tailor the channel selection in the marketing mix.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Marketing Mix Optimization Model</strong></p>
-    <ul>
-        <li>Objective: To understand the impact of different marketing tactics and optimize the mix.</li>
-        <li>Model: Use regression or econometric models.</li>
-        <li>Integration:
-            <ul>
-                <li>The model's output informs how to allocate resources across different channels and tactics to maximize ROI.</li>
-            </ul>
-        </li>
-    </ul>
-    <p><strong>Methodology Integration</strong></p>
-    <ul>
-        <li>System Integration:
-            <ul>
-                <li>All these models work in conjunction to provide a comprehensive view of the most effective marketing strategies.</li>
-                <li>The system continuously updates these strategies based on new data, feedback, and model predictions.</li>
-            </ul>
-        </li>
-        <li>Feedback Loop:
-            <ul>
-                <li>Feedback from the field (sales reps) and market response is used to refine the models continuously.</li>
-                <li>This helps in adapting the strategies to changing HCP behaviors and market dynamics.</li>
-            </ul>
-        </li>
-    </ul>
-    <p>In summary, this methodology leverages a suite of AI/ML models, each contributing a different piece of intelligence to the overall strategy. The integration of these models allows for a nuanced and dynamic approach to pharmaceutical marketing, ensuring that each HCP receives personalized and effective communication that is likely to result in higher engagement and prescription volumes.</p>
-    <p><strong>Tools and Technologies:</strong></p>
-    <ul>
-        <li>Machine Learning: TensorFlow, PyTorch, Scikit-learn.</li>
-        <li>Cloud: AWS, Docker, Glue, Delta Lake, Snowflake, ML Flow, Databricks.</li>
-        <li>Data Analysis: Python, R, SQL.</li>
-        <li>Sequence Analysis: Custom scripts for genetic algorithms, dynamic time warping.</li>
-    </ul>
-    <h2>3. Suggestion Generation</h2>
-    <p>Integration of Model Outputs:</p>
-    <ul>
-        <li>Outputs from different models (engagement prediction, channel propensity, segmentation, etc.) are consolidated to create a comprehensive profile for each HCP.</li>
-        <li>An equation or a scoring algorithm is used to integrate these outputs. Example Equation: Total Score = w1 * Engagement Score + w2 * Channel Propensity Score + w3 * Segmentation Score + ...</li>
-        <li>The weights (w1, w2, w3, ...) are determined through optimization techniques, historical performance analysis, or expert input.</li>
-    </ul>
-    <p><strong>Suggestion Reference-ID Structure:</strong></p>
-    <ul>
-        <li>Each suggestion is assigned a unique Reference-ID for tracking and analysis. Example: HCP1234-Engage-20240101-001</li>
-    </ul>
-    <p><strong>Types of Suggestions:</strong></p>
-    <ul>
-        <li>Engagement Suggestions: Tailored based on HCP’s past engagement and channel affinity.</li>
-        <li>Product Switch Suggestions: Based on changes in the number of patients switching to or from the brand.</li>
-        <li>Market Share Suggestions: Suggestions arising from changes in market share, either overall or within specific access categories.</li>
-        <li>Content Engagement Suggestions: Based on how HCPs interact with different content types across channels.</li>
-        <li>Call Planning Suggestions: Adjustments to planned calls based on HCP’s recent interactions and deviations from planned activities.</li>
-        <li>Patient Metrics Suggestions: Suggestions based on changes in patient metrics related to the brand.</li>
-        <li>Managed Care Suggestions: Tailored based on changes in managed care metrics and HCP’s performance within these parameters.</li>
-        <li>Territory Management Suggestions: Identifying high-value HCPs or those with significant changes in engagement for prioritized focus.</li>
-    </ul>
-    <p><strong>Prioritizing Suggestions:</strong></p>
-    <ul>
-        <li>Suggestions are prioritized based on scores like Timeliness, Actionability, Severity, and Relevance.</li>
-        <li>These scores are computed based on the urgency of the action, the potential impact, the criticality of the situation, and the alignment with the HCP’s preferences and behaviors.</li>
-    </ul>
-    <p><strong>Analysis for Suggestion Creation</strong></p>
-    <ul>
-        <li>Statistical Significance: Changes in HCP behavior are analyzed for statistical significance to ensure that suggestions are based on meaningful trends and not random fluctuations.</li>
-        <li>Primary Drivers Analysis: About 15 primary drivers, including changes in market share, product volume, engagement rates, and patient metrics, are continuously analyzed to generate suggestions.</li>
-        <li>Dynamic Suggestion Engine: The engine dynamically updates suggestions based on the latest data, ensuring that the sales reps have the most current and relevant information.</li>
-    </ul>
-    <p>In summary, the process of creating field suggestions is data-intensive, requiring the integration of multiple AI/ML model outputs and the continuous analysis of various HCP-related metrics. The suggestions are meticulously structured, categorized, and prioritized, ensuring that they are actionable, relevant, and timely. This systematic approach significantly enhances the efficiency and effectiveness of the sales reps, driving targeted engagement and ultimately contributing to improved sales performance and market positioning.</p>
-    <p><strong>Tools and Technologies:</strong></p>
-    <ul>
-        <li>Rule Engine Development: Drools or similar business rule management systems.</li>
-        <li>Prioritization Algorithms: Custom algorithms developed in Python or R.</li>
-    </ul>        
-    <h2>Deployment and Feedback Loop</h2>
-    <ul>
-        <li>
-            <strong>User Interface:</strong>
-            <ul>
-                <li>Develop an intuitive interface for sales reps to receive and act on suggestions.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Real-Time Updates:</strong>
-            <ul>
-                <li>Integrate with live data streams for current HCP information.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Feedback System:</strong>
-            <ul>
-                <li>Capture and incorporate rep and HCP feedback for continuous improvement.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Tools and Technologies:</strong>
-            <ul>
-                <li>UI/UX Design: JavaScript frameworks (React, Angular), CSS.</li>
-                <li>Real-Time Data Integration: Apache Kafka, WebSocket.</li>
-                <li>Feedback Systems: In-app feedback tools, data analytics platforms.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Additional Models and Methodologies</h2>
-    <ul>
-        <li>
-            <strong>Time Series Analysis:</strong>
-            <ul>
-                <li>Analyze trends and seasonality in HCP engagement using ARIMA, SARIMA models.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Natural Language Processing (NLP):</strong>
-            <ul>
-                <li>Utilize NLP for text analysis in HCP communications.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Reinforcement Learning:</strong>
-            <ul>
-                <li>Adapt strategies dynamically based on reps' successes and failures.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Tools and Technologies:</strong>
-            <ul>
-                <li>NLP: NLTK, SpaCy.</li>
-                <li>Reinforcement Learning: OpenAI Gym, custom models in TensorFlow.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Analytics and Reporting</h2>
-    <ul>
-        <li>
-            <strong>Impact Analysis:</strong>
-            <ul>
-                <li>Track performance metrics like HCP engagement lift, nRx impact, ROI.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Dashboard:</strong>
-            <ul>
-                <li>Provide comprehensive dashboards for management overview.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Tools and Technologies:</strong>
-            <ul>
-                <li>Analytics Dashboards: Tableau, Power BI.</li>
-                <li>Data Visualization: D3.js, Plotly.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Impact and Result Framework</h2>
-    <ul>
-        <li><strong>Quantitative Metrics:</strong>
-            <ul>
-                <li>Increased HCP engagement and prescribing behavior.</li>
-                <li>Higher ROI from optimized marketing strategies.</li>
-                <li>Enhanced efficiency in sales rep activities and resource allocation.</li>
-            </ul>
-        </li>
-        <strong><li>Qualitative Outcomes:</strong>
-            <ul>
-                <li>Improved personalization in HCP interactions.</li>
-                <li>Better understanding of HCP behaviors and preferences.</li>
-                <li>Enhanced coordination and effectiveness of marketing and sales efforts.</li>
-            </ul>
-        </li>
-        <li><strong>Adaptation and Continuous Improvement:</strong>
-            <ul>
-                <li>Incorporate real-time market feedback for strategy refinement.</li>
-                <li>Regular updates to models based on new data and trends.</li>
-            </ul>
-        </li>
-        <li>
-            <p>In summary, this project integrates various advanced models and methodologies into a comprehensive engine designed to optimize pharmaceutical marketing strategies. It leverages a wide array of tools and technologies from data processing platforms to sophisticated AI and ML algorithms, ensuring a highly adaptable, efficient, and effective approach to pharmaceutical sales and marketing. Continuous learning and adaptation are key features, ensuring the engine remains relevant and impactful over time.</p>
-        </li>
-    </ul>
-    </div>
-        """,
-        "insights": "This project has significantly advanced the capabilities of pharmaceutical marketing, utilizing AI and ML to deliver precise, effective strategies that resonate with HCPs.",
-        "visualizations": "", 
-        "code": "", 
-        "conclusion": "A landmark project in the field, setting a new standard for data-driven, AI-enhanced pharmaceutical marketing and sales strategies.",
-        "pdf": False,
-        "pdf_file_path": ""
-    },
+ 
             {
                 "title": "Revolutionizing Pharma Analytics: Advanced Data Science Integration",
-                "image": "",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms_1.jpg?raw=true",
                 "description": "This project ambitiously integrates advanced data science and AI/ML technologies into a comprehensive analytics platform, revolutionizing pharmaceutical industry practices. It harmonizes data from diverse sources like EMRs, sales, and market research, providing a full spectrum of insights. By leveraging tools like Apache NiFi, Tableau, TensorFlow, and AWS, the platform enables enhanced decision-making with self-service analytics, sophisticated reporting, and predictive modeling. The result is a marked improvement in operational efficiency, marketing ROI, and a deeper understanding of patient and consumer needs, setting new benchmarks in data-driven strategies in healthcare.",
                 "details": """
             <div>
@@ -1184,7 +916,7 @@ class ProjectDetailsPageData:
             },
             {
                 "title": "Precision Customer Engagement: Advanced Segmentation and Journey Analytics",
-                "image": "",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/segmentation.png?raw=true",
                 "description": "This project revolutionizes customer engagement in the healthcare sector by integrating advanced data analytics and machine learning techniques. We focus on precise customer segmentation and detailed journey mapping, utilizing a blend of data from diverse sources. This approach leads to enhanced customer understanding, increased ROI, and improved satisfaction. Our methodology employs tools like Python, Scikit-learn, and Tableau, and involves rigorous processes from data integration to K-means clustering, resulting in a comprehensive and adaptive strategy for customer engagement.",
                 "details": """
                 <div>
@@ -1288,7 +1020,7 @@ class ProjectDetailsPageData:
 
  {
                 "title": "Dynamic HCP Segmentation: Monte Carlo Simulations in Pharma Marketing",
-                "image": "",
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/bms_3.png?raw=true",
                 "description": "This project exemplifies the innovative application of Monte Carlo simulations and K-means clustering to segment healthcare professionals (HCPs) in pharmaceutical marketing. Focusing on capturing and analyzing complex behavioral patterns, the project employed a variety of tools like Python, R, and Tableau to model HCP behaviors and preferences. This advanced approach led to improved segmentation accuracy, resulting in higher ROI and more effective marketing strategies.",
                 "details": """
                 <div>
@@ -1335,7 +1067,7 @@ class ProjectDetailsPageData:
             },
     {
         "title": "WebMD's Advanced AWS Data Science Platform",
-        "image": "",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/LPYH.gif?raw=true",  # Add the URL or path to the relevant image
         "description": "This project highlights WebMD's development of a sophisticated data science and analytics platform using AWS services and Delta Lake. It emphasizes operational efficiency, advanced data management, and machine learning capabilities, leading to significant improvements in data processing, analytics, and business outcomes.",
         "details": """
         <div>

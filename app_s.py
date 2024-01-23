@@ -8,6 +8,7 @@ from pages_2.work_experience_page import WorkExperiencePage
 from pages_2.work_experience_project_details import ProjectDetailsApp
 from pages_2.work_experience_details import WorkExperienceDetailsApp
 from pages_2.about_page import AboutPage
+from pages_2.contacts import ContactsPage
 # Import other pages as needed
 import streamlit as st
 #from streamlit.components.v1 import html
@@ -70,6 +71,12 @@ def WORK_EXPERIENCE_DETAILS():
     WorkExperienceDetailsApp().run()
     #navbar.render_footer()
 
+@app.addapp(title='CONTACT')
+def CONTACT():
+    ContactsPage().run()
+    #navbar.render_footer()
+
+
 
 
 
@@ -80,8 +87,11 @@ if __name__ == "__main__":
         'WORK EXPERIENCE': ['WORK EXPERIENCE'],
         'ABOUT': ['ABOUT'],
         'PROJECTS': ['PROJECTS'],
+        'CONTACT':['CONTACT'],
 
         #'PROJECTS DETAILS': ['PROJECTS DETAILS']
 
     }
     app.run(complex_nav)
+
+    
