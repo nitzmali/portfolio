@@ -13,6 +13,7 @@ class ContactsPage:
   def run(self):
 
     st.title("Contact Me")
+    st.image("https://github.com/nitzmali/portfolio/blob/main/assets/images/nitin_image_exchange_place.gif?raw=true",width=300)
 
     st.markdown("""
         <style>
