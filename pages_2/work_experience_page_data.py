@@ -104,9 +104,9 @@ class WorkExperiencePageData():
     zs_associates_projects = [
     
                     {
-                    "title": "Advanced ML Lifecycle Management in Pharma",
+                    "title": "Advanced Data Management in Pharma",
                     "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/segmentation.png?raw=true", 
-                    "description": "Led a comprehensive ML project for top pharma clients like Pfizer, BMS, and Sanofi, resulting in a significant enhancement in data architecture and machine learning model efficacy.",
+                    "description": "Led a comprehensive project for top pharma client resulting in a significant enhancement in data architecture and machine learning model efficacy.",
                     "details": """
                     """,
                     "insights": "This project exemplified the integration of advanced data processing and machine learning techniques to elevate analytics and decision-making capabilities in the pharmaceutical sector.",
@@ -149,7 +149,7 @@ class WorkExperiencePageData():
     aktana_projects = [
                 {
                 "title": "Revolutionizing Customer Engagement with CRI Score",
-                "image": "", 
+                "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/aktana_1.png?raw=true", 
                 "description": "Spearheaded the development of the Customer Relationship Index (CRI), significantly enhancing omnichannel engagement tracking and data-driven marketing decisions.",
                 "details": """
                 """,

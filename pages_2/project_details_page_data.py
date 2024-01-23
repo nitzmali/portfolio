@@ -148,9 +148,9 @@ class ProjectDetailsPageData:
         work_experience_projects = [
             
                 {
-                    "title": "Advanced ML Lifecycle Management in Pharma",
+                    "title": "Advanced Data Management in Pharma",
                     "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/segmentation.png?raw=true", 
-                    "description": "Led a comprehensive ML project for top pharma clients like Pfizer, BMS, and Sanofi, resulting in a significant enhancement in data architecture and machine learning model efficacy.",
+                    "description": "Led a comprehensive project for top pharma client resulting in a significant enhancement in data architecture and machine learning model efficacy.",
                     "details": """
                         <div>
                             <h2>Data Collection, Data Verification, Feature Engineering:</h2>
