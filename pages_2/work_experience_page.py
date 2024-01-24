@@ -29,7 +29,6 @@ class WorkExperiencePage(HydraHeadApp):
         if project_name!=None:
                     #project_name = 'Machine Learning Image Colorization'
             project = next((proj for proj in projects if proj["title"] == project_name), None) 
-            st.write(project["scrollPosition"])
             scroll_position = str(project["scrollPosition"])
             #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
             html_script = f"""
