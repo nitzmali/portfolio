@@ -46,7 +46,7 @@ class ProjectDetailsPageData:
                     "code": "https://github.com/nitzmali/job_transition_pathway",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
                 },
                 {
                     "title": "Machine Learning Image Colorization",
@@ -258,7 +258,8 @@ class ProjectDetailsPageData:
                     "code": "",  
                     "conclusion": "Successfully enabled enhanced data-driven strategies for global pharma clients, ensuring precision and efficiency in their analytics operations.",
                     "pdf": False,
-                    "pdf_file_path": ""
+                    "pdf_file_path": "",
+                    "scrollPosition":200,
                 },
                 {
                     "title": "Commercial Sanofi One AI Diamond Machine Learning Model Ops",
@@ -334,7 +335,8 @@ class ProjectDetailsPageData:
                     "code": "",  
                     "conclusion": "The project's success demonstrated the transformative impact of automation in data pipeline management, paving the way for future advancements in the field.",
                     "pdf": False,
-                    "pdf_file_path": ""
+                    "pdf_file_path": "",
+                    "scrollPosition":200,
                 },
                 {
                 "title": "Revolutionizing Customer Engagement with CRI Score",
@@ -401,7 +403,8 @@ class ProjectDetailsPageData:
                 "code": "",  
                 "conclusion": "The successful implementation of the CRI Score transformed marketing strategies, proving its efficacy in enhancing customer engagement and sales forecasting.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+                "scrollPosition":650,
             },
             {
                 "title": "Optimizing HCP Engagement with Neural Network Based Channel Propensity Models",
@@ -451,7 +454,8 @@ class ProjectDetailsPageData:
                 "code": "", 
                 "conclusion": "The successful implementation of channel propensity models marked a major advancement in data-driven healthcare marketing.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+                "scrollPosition":650,
             },
             {
             "title": "Revolutionizing Pharma Marketing with Advanced Attribution Modelling",
@@ -495,7 +499,8 @@ class ProjectDetailsPageData:
             "code": "",  
             "conclusion": "The project's success lies in its ability to provide actionable insights, leading to smarter marketing investments and enhanced sales performance.",
             "pdf": False,
-            "pdf_file_path": ""
+            "pdf_file_path": "",
+            "scrollPosition":650,
         },
                     {
         "title": "Optimizing Pharma Marketing with AI-Driven Contextual Intelligence Engine",
@@ -764,7 +769,8 @@ class ProjectDetailsPageData:
         "code": "", 
         "conclusion": "A landmark project in the field, setting a new standard for data-driven, AI-enhanced pharmaceutical marketing and sales strategies.",
         "pdf": False,
-        "pdf_file_path": ""
+        "pdf_file_path": "",
+        "scrollPosition":650,
     },
             {
                 "title": "Gen AI Powered Next Best Action Recommendations",
@@ -868,7 +874,8 @@ class ProjectDetailsPageData:
                 "code": "", 
                 "conclusion": "The successful implementation of channel propensity models marked a major advancement in data-driven healthcare marketing.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+            "scrollPosition":650,
             },
 
  
@@ -912,7 +919,8 @@ class ProjectDetailsPageData:
                 "code": "", 
                 "conclusion": "The successful implementation of channel propensity models marked a major advancement in data-driven healthcare marketing.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+                "scrollPosition":1000,
             },
             {
                 "title": "Precision Customer Engagement: Advanced Segmentation and Journey Analytics",
@@ -1015,7 +1023,8 @@ class ProjectDetailsPageData:
                 "code": "", 
                 "conclusion": "The successful implementation of channel propensity models marked a major advancement in data-driven healthcare marketing.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+                "scrollPosition":1000,
             },
 
  {
@@ -1063,7 +1072,8 @@ class ProjectDetailsPageData:
                 "code": "", 
                 "conclusion": "The successful implementation of channel propensity models marked a major advancement in data-driven healthcare marketing.",
                 "pdf": False,
-                "pdf_file_path": ""
+                "pdf_file_path": "",
+                "scrollPosition":1000,
             },
     {
         "title": "WebMD's Advanced AWS Data Science Platform",
@@ -1109,7 +1119,60 @@ class ProjectDetailsPageData:
         "code": "",
         "conclusion": "",
         "pdf": False,
-        "pdf_file_path": ""
+        "pdf_file_path": "",
+        "scrollPosition":1300,
+    },
+    {
+        "title": "Advanced Analytics for Investment Opportunity Identification",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_1.jpg?raw=true",  # Add the URL or path to the relevant image
+        "description": "Collaborated with 23 stakeholders to leverage advanced analytics in identifying investment opportunities and risks, guiding strategic decision-making in asset management.",
+        "details": "",
+        "insights": "",
+        "visualizations": "",
+        "code": "",
+        "conclusion": "",
+        "pdf": False,
+        "pdf_file_path": "",
+        "scrollPosition":1200,
+    },
+    {
+        "title": "Data Mining and Analysis for Wealth Management Optimization",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_2.jpg?raw=true",  # Add the URL or path to the relevant image
+        "description": "Conducted extensive data mining and analysis across multiple databases to optimize investment strategies and product offerings in wealth management.",
+        "details": "",
+        "insights": "",
+        "visualizations": "",
+        "code": "",
+        "conclusion": "",
+        "pdf": False,
+        "pdf_file_path": "",
+        "scrollPosition":1200,
+    },
+    {
+        "title": "A/B Testing for Enhanced Client Engagement in Wealth Management",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_3.jpg?raw=true",  # Add the URL or path to the relevant image
+        "description": "Orchestrated comprehensive A/B testing for client interfaces, achieving a 23% increase in client engagement and satisfaction through tailored wealth management solutions.",
+        "details": "",
+        "insights": "",
+        "visualizations": "",
+        "code": "",
+        "conclusion": "",
+        "pdf": False,
+        "pdf_file_path": "",
+        "scrollPosition":1200,
+    },
+    {
+        "title": "Innovative Statistical Methods in Financial Product Development",
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_4.jpg?raw=true",  # Add the URL or path to the relevant image
+        "description": "Employed innovative statistical methods to develop and analyze financial products, enhancing portfolio diversification and risk management in asset management.",
+        "details": "",
+        "insights": "",
+        "visualizations": "",
+        "code": "",
+        "conclusion": "",
+        "pdf": False,
+        "pdf_file_path": "",
+        "scrollPosition":1500,
     }
 
 

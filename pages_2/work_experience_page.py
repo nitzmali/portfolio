@@ -3,9 +3,13 @@ import streamlit as st
 from pages_2.work_experience_page_data import WorkExperiencePageData
 from pages_2.project_details_page_data import ProjectDetailsPageData
 from hydralit import HydraHeadApp
+from streamlit.components.v1 import html
 from streamlit_card import card
+from streamlit_javascript import st_javascript
 class WorkExperiencePage(HydraHeadApp):
   def run(self):
+        
+        
         # Assuming you have a PDF file named 'example.pdf' in the same directory as your Streamlit script
         pdf_file_path_smart_dustbin_project = 'assets/documents/Smart_Dustbin_manthan.pdf'
         pdf_file_path_isro_project = 'assets/documents/ISRO.pdf'
@@ -15,7 +19,39 @@ class WorkExperiencePage(HydraHeadApp):
             st.session_state.current_page = 'WORK EXPERIENCE'
         if 'selected_project' not in st.session_state:
             st.session_state.selected_project = None
-        
+        #if 'selected_project' not in st.session_state:
+            #st.session_state.selected_project = None
+
+        projects = ProjectDetailsPageData().work_experience_projects
+        #st.write(st.session_state)
+        # Find the project details using the project name
+        project_name = st.session_state.selected_project
+        if project_name!=None:
+                    #project_name = 'Machine Learning Image Colorization'
+            project = next((proj for proj in projects if proj["title"] == project_name), None) 
+            st.write(project["scrollPosition"])
+            scroll_position = str(project["scrollPosition"])
+            #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
+            html_script = f"""
+                <script>
+                    window.parent.document.querySelector('section.main').scrollTo(0, {scroll_position});
+                </script>
+            """
+            html(html_script, height=0)
+        '''
+
+
+        #st.write(project_name)
+        html(
+            """
+                <script>
+                    window.parent.document.querySelector('section.main').scrollTo(0, 900);
+                </script>
+            """,
+            height=0
+        )
+
+        '''
         # Custom CSS to adjust the layout
         st.markdown("""
             <style>
@@ -57,10 +93,12 @@ class WorkExperiencePage(HydraHeadApp):
             # Embed the PDF in the app
             pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
             return pdf_display
-        def assign_and_redirect(title):
+        def assign_and_redirect(title,key):
             st.session_state.selected_project = title
             self.assign_session(st.session_state, 'WORK EXPERIENCE DETAILS')
             self.do_redirect('WORK EXPERIENCE DETAILS')
+
+
         # Number of columns for the grid
         
         uniq_k_b = 0
@@ -191,7 +229,7 @@ class WorkExperiencePage(HydraHeadApp):
                                 image=project['image'],  # Replace with your image URL if available
                                 key=uniq_k_b,
                                 # Define the action to take on click
-                                on_click=lambda: assign_and_redirect(project['title']),
+                                on_click=lambda: assign_and_redirect(project['title'],key),
                                 styles = {
                                     "card": {
                                         "width": "300px",
@@ -228,7 +266,7 @@ class WorkExperiencePage(HydraHeadApp):
 
                             # Check if the card was clicked and perform action
                             if hasClicked:
-                                assign_and_redirect(project['title'])
+                                assign_and_redirect(project['title'],key)
 
                                     
                 '''
@@ -252,6 +290,11 @@ class WorkExperiencePage(HydraHeadApp):
                 margin-top: 2px; 
                 margin-bottom: 2px;">
         """, unsafe_allow_html=True)
+            
+        st.session_state.selected_project = None
+
+        #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
+
 
                 #st.markdown('<hr style="border:2px solid #008080; width:50%; margin:auto;"/>', unsafe_allow_html=True)
 

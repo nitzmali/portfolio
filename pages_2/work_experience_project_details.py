@@ -20,7 +20,6 @@ class ProjectDetailsApp(HydraHeadApp):
 
         if 'selected_project' not in st.session_state:
             st.session_state.selected_project = None
-
                 
         # Function to convert PDF file to base64
         def get_base64_of_pdf(pdf_file_path):
@@ -234,7 +233,7 @@ class ProjectDetailsApp(HydraHeadApp):
 
             st.markdown(css_style3, unsafe_allow_html=True)
 
-            with st.expander("⬇️  See More: Details, Code, and Summary", expanded=False):
+            with st.expander("⬇️  See More: Details, Code, and Summary", expanded=True):
                 st.markdown('<div class="expander-header">Explore the Project: Insights, Code & Summary</div>', unsafe_allow_html=True)
                 st.markdown('<div class="expander-content">', unsafe_allow_html=True)
                 # Your code to create tabs and other content
@@ -273,6 +272,15 @@ class ProjectDetailsApp(HydraHeadApp):
             st.error("Project not found.")
         
         navbar.render_footer()
+        st.markdown('<script>window.scrollTo(0, 0);</script>', unsafe_allow_html=True)
+        html(
+        """
+            <script>
+                window.parent.document.querySelector('section.main').scrollTo(0, 0);
+            </script>
+        """,
+        height=0
+    )
         
 
 

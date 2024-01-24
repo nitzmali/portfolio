@@ -288,8 +288,17 @@ class WorkExperienceDetailsApp(HydraHeadApp):
                 
         else:
             st.error("Project not found.")
-        
+            st.session_state.selected_project=None
         navbar.render_footer()
+        st.markdown('<script>window.scrollTo(0, 0);</script>', unsafe_allow_html=True)
+        html(
+        """
+            <script>
+                window.parent.document.querySelector('section.main').scrollTo(0, 0);
+            </script>
+        """,
+        height=0
+    )
         
 
 

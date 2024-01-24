@@ -209,16 +209,6 @@ class AboutPage:
                 <li><strong>Documentation and Knowledge Sharing:</strong> Maintains comprehensive documentation of machine learning modeling processes and procedures.</li>
                 <li><strong>Open Source and Community Involvement:</strong> Actively contributes to GitHub, open-source initiatives, research projects, and engages in Kaggle competitions.</li>
                 <li><strong>Democratization of Data:</strong> Committed to making data knowledge and insights accessible across various teams and disciplines.</li>
-
-        <hr>
-        <h3 class="highlight">Contact Information</h3>
-        <ul>
-            <li>🌐: <a href="https://mroneai.com" target="_blank">mroneai.com</a></li>
-            <li>🔗: <a href="https://linkedin.com/in/nitsmali" target="_blank">linkedin.com/in/nitsmali</a></li>
-            <li>🐙: <a href="https://github.com/nitzmali" target="_blank">github.com/nitzmali</a></li>
-            <li>✉️: <a href="mailto:nitsmali@hotmail.com">nitsmali@hotmail.com</a></li>
-            <li>📞: (908)-275-7808</li>
-        </ul>
         </div>
         <hr>
     """, unsafe_allow_html=True)
@@ -226,17 +216,6 @@ class AboutPage:
         # Further details can be added here based on the selected company
     #st.download_button(label="Download Resume", data="Your resume content", file_name="assets/documents/Mali_Nitin_Resume_DS.pdf", mime="application/pdf")
     # Provide the path to your local PDF file
-    file_path = 'assets/documents/Mali_Nitin_Resume_DS.pdf'
-        # Read the PDF file into bytes
-    with open(file_path, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
-
-    st.download_button(
-        label="Download Resume",
-        data=PDFbyte,
-        file_name="Mali_Nitin_Resume_DS.pdf",
-        mime="application/pdf"
-    )
 
 
         # use full page width

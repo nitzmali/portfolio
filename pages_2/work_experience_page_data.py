@@ -274,7 +274,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Data Mining and Analysis for Wealth Management Optimization",
-        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos.jpg?raw=true",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_2.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Conducted extensive data mining and analysis across multiple databases to optimize investment strategies and product offerings in wealth management.",
         "details": "",
         "insights": "",
@@ -286,7 +286,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "A/B Testing for Enhanced Client Engagement in Wealth Management",
-        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_1.jpg?raw=true",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_3.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Orchestrated comprehensive A/B testing for client interfaces, achieving a 23% increase in client engagement and satisfaction through tailored wealth management solutions.",
         "details": "",
         "insights": "",
@@ -298,7 +298,7 @@ class WorkExperiencePageData():
     },
     {
         "title": "Innovative Statistical Methods in Financial Product Development",
-        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos.jpg?raw=true",  # Add the URL or path to the relevant image
+        "image": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_4.jpg?raw=true",  # Add the URL or path to the relevant image
         "description": "Employed innovative statistical methods to develop and analyze financial products, enhancing portfolio diversification and risk management in asset management.",
         "details": "",
         "insights": "",

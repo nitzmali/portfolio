@@ -28,3 +28,4 @@ seaborn
 streamlit_extras
 streamlit_card
 streamlit_lottie
+streamlit-javascript
