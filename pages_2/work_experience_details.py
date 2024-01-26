@@ -242,6 +242,7 @@ class WorkExperienceDetailsApp(HydraHeadApp):
                     max-width: 900px;
                 }
 
+
                 .details-container {
                     max-width: 900px;    /* Set a maximum width for the content */
                     margin: auto;        /* Center the container */

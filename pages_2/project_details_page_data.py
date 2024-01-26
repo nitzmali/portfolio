@@ -47,6 +47,7 @@ class ProjectDetailsPageData:
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
                     "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
                 {
                     "title": "Machine Learning Image Colorization",
@@ -58,7 +59,8 @@ class ProjectDetailsPageData:
                     "code": "https://github.com/nitzmali/Convert-gray-color-image-to-Color",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
                             {
                     "title": "Income and BMI Prediction",
@@ -70,7 +72,8 @@ class ProjectDetailsPageData:
                     "code": "https://github.com/nitzmali/BMI_PREDICTION",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
                 {
                     "title": "Fault Tolerant Autonomoy Of A Spacecraft @ ISRO",
@@ -82,7 +85,8 @@ class ProjectDetailsPageData:
                     "code": "https://youtu.be/09odCLopdrc?si=Vgr8L8ltDlQnXXjR",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":True,
-                    "pdf_file_path":'assets/documents/ISRO.pdf'
+                    "pdf_file_path":'assets/documents/ISRO.pdf',
+                    "scrollPosition":0,
                 },
                 {
                     "title": "Go Mad Android App",
@@ -93,7 +97,8 @@ class ProjectDetailsPageData:
                     "visualizations": "URL_to_visualization_1", 
                     "code": "https://www.facebook.com/GoMadApp",
                     "conclusion": "Conclusion of Project 1",
-                    "pdf":False
+                    "pdf":False,
+                    "scrollPosition":0,
                 },
                 {
                     "title": "Smart Dustbin",
@@ -105,7 +110,8 @@ class ProjectDetailsPageData:
                     "code": "https://youtu.be/09odCLopdrc?si=Vgr8L8ltDlQnXXjR",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":True,
-                    "pdf_file_path":'assets/documents/Smart_Dustbin_manthan.pdf'
+                    "pdf_file_path":'assets/documents/Smart_Dustbin_manthan.pdf',
+                    "scrollPosition":0,
                 },
                 {
                     "title": "Blogging Website",
@@ -117,7 +123,8 @@ class ProjectDetailsPageData:
                     "code": "https://github.com/nitzmali/Artificial-Intelligence--Path-Planning-and-Search-Algorithms",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
                 {
                     "title": "AI Algorithms",
@@ -129,7 +136,8 @@ class ProjectDetailsPageData:
                     "code": "https://github.com/nitzmali/Artificial-Intelligence--Path-Planning-and-Search-Algorithms",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
                         {
                     "title": "Airbnb Travel",
@@ -141,7 +149,8 @@ class ProjectDetailsPageData:
                     "code": "https://slides.com/nitinmali/capstone/",
                     "conclusion": "Conclusion of Project 1",
                     "pdf":False,
-                    "pdf_file_path":''
+                    "pdf_file_path":'',
+                    "scrollPosition":0,
                 },
 
 ]

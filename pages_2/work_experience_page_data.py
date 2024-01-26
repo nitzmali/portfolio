@@ -24,6 +24,7 @@ class WorkExperiencePageData():
             "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/zs_associates_logo.jpeg?raw=true",
             "url":"https://zs.com",
         },
+
         {
             "role": "Data Scientist - Machine Learning Engineer",
             "company": "Aktana",
@@ -66,6 +67,20 @@ class WorkExperiencePageData():
             "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/Bristol-Myers_Squibb_Logo.svg.png?raw=true",
             "url":"https://bms.com",
         },
+    {
+            "role": "Data Engineer Manager",
+            "company": "Webmd",
+            "period": "November 2022 - January 2023",
+            "location": "NewYork, USA",
+            "details": """
+                <ul>
+                    <li>Streamlining data processes and enhancing pipeline efficiency. Championed the integration of big data technologies, including AWS andSpark, into the company's data architecture.</li>
+                    <li>Initiated collaborations with product and customer analytics teams to derive actionable insights from tools such as Google Analytics and Adobe Analytics.</li>
+                </ul>
+            """,
+            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/WebMD_logo.png?raw=true",  # Replace with the actual URL or path to your icon
+            "url":"https://webmd.com",
+        },
         {
         "role": "Financial Analyst",
         "company": "Temenos",
@@ -85,20 +100,6 @@ class WorkExperiencePageData():
         "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/temenos_logo.jpg?raw=true",  # Replace with the actual URL or path to your icon,
         "url":"https://temenos.com",
     },
-    {
-            "role": "Data Engineer Manager",
-            "company": "Webmd",
-            "period": "November 2022 - January 2023",
-            "location": "NewYork, USA",
-            "details": """
-                <ul>
-                    <li>Streamlining data processes and enhancing pipeline efficiency. Championed the integration of big data technologies, including AWS andSpark, into the company's data architecture.</li>
-                    <li>Initiated collaborations with product and customer analytics teams to derive actionable insights from tools such as Google Analytics and Adobe Analytics.</li>
-                </ul>
-            """,
-            "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/WebMD_logo.png?raw=true",  # Replace with the actual URL or path to your icon
-            "url":"https://webmd.com",
-        },
     ]
         
     zs_associates_projects = [
@@ -323,7 +324,8 @@ class WorkExperiencePageData():
         "code": "",
         "conclusion": "",
         "pdf": False,
-        "pdf_file_path": ""
+        "pdf_file_path": "",
+        "scrollPosition":1300,
     }
         ]
 

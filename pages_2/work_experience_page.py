@@ -9,11 +9,6 @@ from streamlit_javascript import st_javascript
 class WorkExperiencePage(HydraHeadApp):
   def run(self):
         
-        
-        # Assuming you have a PDF file named 'example.pdf' in the same directory as your Streamlit script
-        pdf_file_path_smart_dustbin_project = 'assets/documents/Smart_Dustbin_manthan.pdf'
-        pdf_file_path_isro_project = 'assets/documents/ISRO.pdf'
-        
         # Initialize session state for selected project
         if 'current_page' not in st.session_state:
             st.session_state.current_page = 'WORK EXPERIENCE'
@@ -22,35 +17,12 @@ class WorkExperiencePage(HydraHeadApp):
         #if 'selected_project' not in st.session_state:
             #st.session_state.selected_project = None
 
-        projects = ProjectDetailsPageData().work_experience_projects
+        #projects = ProjectDetailsPageData().work_experience_projects
         #st.write(st.session_state)
         # Find the project details using the project name
         project_name = st.session_state.selected_project
-        if project_name!=None:
-                    #project_name = 'Machine Learning Image Colorization'
-            project = next((proj for proj in projects if proj["title"] == project_name), None) 
-            scroll_position = str(project["scrollPosition"])
-            #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
-            html_script = f"""
-                <script>
-                    window.parent.document.querySelector('section.main').scrollTo(0, {scroll_position});
-                </script>
-            """
-            html(html_script, height=0)
-        '''
 
-
-        #st.write(project_name)
-        html(
-            """
-                <script>
-                    window.parent.document.querySelector('section.main').scrollTo(0, 900);
-                </script>
-            """,
-            height=0
-        )
-
-        '''
+        
         # Custom CSS to adjust the layout
         st.markdown("""
             <style>
@@ -111,8 +83,10 @@ class WorkExperiencePage(HydraHeadApp):
         bms_projects = WorkExperiencePageData().bms_projects
         temenos_projects = WorkExperiencePageData().temenos_projects
         webmd_projects = WorkExperiencePageData().webmd_projects
-        projects = ProjectDetailsPageData().projects
-        companies_projects = ["zs_associates_projects","aktana_projects","bms_projects","temenos_projects","webmd_projects"]
+        projects_all = ProjectDetailsPageData().projects
+        projects_w = ProjectDetailsPageData().work_experience_projects 
+        
+        companies_projects = ["zs_associates_projects","aktana_projects","bms_projects","webmd_projects","temenos_projects"]
         # Display each job entry
         
         for job_idx,job in enumerate(work_experience):
@@ -219,7 +193,8 @@ class WorkExperiencePage(HydraHeadApp):
                                 # Create a linear gradient CSS string
                                 gradient = f"linear-gradient(to right, {color1}, {color2})"
                                 return gradient
-                            st.markdown(f"<div style='margin-left: 80px;overflow: hidden;width: calc(100% - 80px);'>{project['title']} </div>", unsafe_allow_html=True)
+                            st.markdown(f"<div style='margin-left: 70px; height: 60px;overflow: hidden;width: 400px;'>{project['title']} </div>", unsafe_allow_html=True)
+                            
                             #st.markdown("##")
                             # Use the card component from streamlit_card library
                             hasClicked = card(
@@ -289,13 +264,28 @@ class WorkExperiencePage(HydraHeadApp):
                 margin-top: 2px; 
                 margin-bottom: 2px;">
         """, unsafe_allow_html=True)
-            
-        st.session_state.selected_project = None
+        projects_ = projects_all + projects_w 
+        if project_name!=None:
+                    #project_name = 'Machine Learning Image Colorization'
+            project = next((proj for proj in projects_ if proj["title"] == project_name), None)
+            scroll_position = str(project["scrollPosition"])
+            #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
+            html_script = f"""
+                <script>
+                    window.parent.document.querySelector('section.main').scrollTo(0, {scroll_position});
+                </script>
+            """
+            html(html_script, height=0)
+        else:
+            st.markdown('<script>window.scrollTo(0, 0);</script>', unsafe_allow_html=True)
+            html(
+            """
+                <script>
+                    window.parent.document.querySelector('section.main').scrollTo(0, 0);
+                </script>
+            """,
+            )
 
-        #st.markdown('<script>window.scrollTo(0, 1000);</script>', unsafe_allow_html=True)
-
-
-                #st.markdown('<hr style="border:2px solid #008080; width:50%; margin:auto;"/>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     WorkExperiencePage().run()
