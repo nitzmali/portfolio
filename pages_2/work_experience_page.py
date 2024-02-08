@@ -6,20 +6,18 @@ from hydralit import HydraHeadApp
 from streamlit.components.v1 import html
 from streamlit_card import card
 from streamlit_javascript import st_javascript
+import random
+import base64
 class WorkExperiencePage(HydraHeadApp):
   def run(self):
+    
         
         # Initialize session state for selected project
         if 'current_page' not in st.session_state:
             st.session_state.current_page = 'WORK EXPERIENCE'
         if 'selected_project' not in st.session_state:
             st.session_state.selected_project = None
-        #if 'selected_project' not in st.session_state:
-            #st.session_state.selected_project = None
 
-        #projects = ProjectDetailsPageData().work_experience_projects
-        #st.write(st.session_state)
-        # Find the project details using the project name
         project_name = st.session_state.selected_project
 
         
@@ -54,7 +52,7 @@ class WorkExperiencePage(HydraHeadApp):
             </style>
         """, unsafe_allow_html=True)
 
-        import base64
+        
         # Function to convert PDF file to base64
         def get_base64_of_pdf(pdf_file_path):
             with open(pdf_file_path, "rb") as pdf_file:
@@ -148,7 +146,7 @@ class WorkExperiencePage(HydraHeadApp):
                                                             # Define the function to handle the click action
 
 
-                            import random
+                            
 
                             def generate_random_gradient():
                                 # Define a list of color hex codes
@@ -193,7 +191,7 @@ class WorkExperiencePage(HydraHeadApp):
                                 # Create a linear gradient CSS string
                                 gradient = f"linear-gradient(to right, {color1}, {color2})"
                                 return gradient
-                            st.markdown(f"<div style='margin-left: 70px; height: 60px;overflow: hidden;width: 400px;'>{project['title']} </div>", unsafe_allow_html=True)
+                            st.markdown(f"<div style='margin-left: 70px; height: 60px;overflow: hidden;width: 300px;'>{project['title']} </div>", unsafe_allow_html=True)
                             
                             #st.markdown("##")
                             # Use the card component from streamlit_card library
@@ -242,18 +240,6 @@ class WorkExperiencePage(HydraHeadApp):
                             if hasClicked:
                                 assign_and_redirect(project['title'],key)
 
-                                    
-                '''
-                st.markdown("""
-                    <hr style="
-                        border: none; 
-                        height: 3px; 
-                        background: linear-gradient(to right, #B2DFDB 0%, #B2DFDB 100%); 
-                        margin-top: 2px; 
-                        margin-bottom: 2px;">
-                """, unsafe_allow_html=True)
-                    
-                '''
                     
 
             st.markdown("""
@@ -285,6 +271,7 @@ class WorkExperiencePage(HydraHeadApp):
                 </script>
             """,
             )
+        st.session_state.selected_project = None
 
 
 if __name__ == "__main__":

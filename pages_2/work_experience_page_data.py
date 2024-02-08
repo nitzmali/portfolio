@@ -3,8 +3,8 @@ from hydralit import HydraHeadApp
 class WorkExperiencePageData():
     work_experience = [
         {
-            "role": "BT",
-            "company": "ZS Associates",
+            "role": "Data Scientist",
+            "company": "ZS",
             "period": "January 2023 - Present",
             "location": "New York, USA",
             "details": """
@@ -22,7 +22,7 @@ class WorkExperiencePageData():
                 </ul>
             """,
             "icon": "https://github.com/nitzmali/portfolio/blob/main/assets/images/zs_associates_logo.jpeg?raw=true",
-            "url":"https://zs.com",
+            "url":"https://www.zs.com",
         },
 
         {

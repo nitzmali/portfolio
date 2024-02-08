@@ -301,6 +301,8 @@ class WorkExperienceDetailsApp(HydraHeadApp):
         height=0
     )
         
+        st.session_state.selected_project = None
+        
 
 
 
